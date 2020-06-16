@@ -1,0 +1,1281 @@
+Using base prefix '/cvmfs/soft.computecanada.ca/easybuild/software/2017/Core/python/3.7.4'
+New python executable in /localscratch/zhehao.32847570.0/env/bin/python
+Installing setuptools, pip, wheel...
+done.
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already up-to-date: pip in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (19.1.1)
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Collecting absl-py==0.5.0 (from -r requirements.txt (line 3))
+Collecting astor==0.8.1 (from -r requirements.txt (line 4))
+Collecting cloudpickle==1.4.1 (from -r requirements.txt (line 5))
+Collecting cycler==0.10.0 (from -r requirements.txt (line 6))
+Collecting dask==2.17.0 (from -r requirements.txt (line 7))
+Collecting decorator==4.4.2 (from -r requirements.txt (line 8))
+Collecting gast==0.3.3 (from -r requirements.txt (line 9))
+Collecting grpcio==1.25.0 (from -r requirements.txt (line 10))
+Collecting h5py==2.10.0 (from -r requirements.txt (line 11))
+Collecting importlib-metadata==1.6.0 (from -r requirements.txt (line 12))
+Collecting Keras-Applications==1.0.8 (from -r requirements.txt (line 13))
+Collecting Keras-Preprocessing==1.1.2 (from -r requirements.txt (line 14))
+Collecting kiwisolver==1.1.0 (from -r requirements.txt (line 15))
+Collecting Markdown==3.2.2 (from -r requirements.txt (line 16))
+Collecting matplotlib==3.2.1 (from -r requirements.txt (line 17))
+Collecting mock==4.0.2 (from -r requirements.txt (line 18))
+Collecting networkx==2.4 (from -r requirements.txt (line 19))
+Collecting nibabel==3.1.0 (from -r requirements.txt (line 20))
+Collecting numpy==1.16.2 (from -r requirements.txt (line 21))
+Collecting packaging==20.4 (from -r requirements.txt (line 22))
+Collecting Pillow==7.0.0 (from -r requirements.txt (line 23))
+Collecting protobuf==3.11.3 (from -r requirements.txt (line 24))
+Collecting pyparsing==2.4.7 (from -r requirements.txt (line 25))
+Collecting python-dateutil==2.8.1 (from -r requirements.txt (line 26))
+Collecting PyWavelets==1.1.1 (from -r requirements.txt (line 27))
+Collecting PyYaML==5.3.1 (from -r requirements.txt (line 28))
+Collecting scikit-image==0.14.2 (from -r requirements.txt (line 29))
+Collecting scipy==1.1.0 (from -r requirements.txt (line 30))
+Collecting six==1.15.0 (from -r requirements.txt (line 31))
+Collecting tensorboard==1.13.1 (from -r requirements.txt (line 32))
+Collecting tensorflow-estimator==1.13.0 (from -r requirements.txt (line 33))
+Collecting tensorflow-gpu==1.13.1+computecanada (from -r requirements.txt (line 34))
+Collecting termcolor==1.1.0 (from -r requirements.txt (line 35))
+Collecting toolz==0.9.0 (from -r requirements.txt (line 36))
+Collecting Werkzeug==1.0.1 (from -r requirements.txt (line 37))
+Requirement already satisfied: wheel==0.33.4 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from -r requirements.txt (line 38)) (0.33.4)
+Collecting zipp==3.1.0 (from -r requirements.txt (line 39))
+Requirement already satisfied: setuptools in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from kiwisolver==1.1.0->-r requirements.txt (line 15)) (41.0.1)
+Installing collected packages: six, absl-py, astor, cloudpickle, cycler, dask, decorator, gast, grpcio, numpy, h5py, zipp, importlib-metadata, Keras-Applications, Keras-Preprocessing, kiwisolver, Markdown, pyparsing, python-dateutil, matplotlib, mock, networkx, packaging, nibabel, Pillow, protobuf, PyWavelets, PyYaML, scikit-image, scipy, Werkzeug, tensorboard, tensorflow-estimator, termcolor, tensorflow-gpu, toolz
+Successfully installed Keras-Applications-1.0.8 Keras-Preprocessing-1.1.2 Markdown-3.2.2 Pillow-7.0.0 PyWavelets-1.1.1 PyYaML-5.3.1 Werkzeug-1.0.1 absl-py-0.5.0 astor-0.8.1 cloudpickle-1.4.1 cycler-0.10.0 dask-2.17.0 decorator-4.4.2 gast-0.3.3 grpcio-1.25.0 h5py-2.10.0 importlib-metadata-1.6.0 kiwisolver-1.1.0 matplotlib-3.2.1 mock-4.0.2 networkx-2.4 nibabel-3.1.0 numpy-1.16.2 packaging-20.4 protobuf-3.11.3 pyparsing-2.4.7 python-dateutil-2.8.1 scikit-image-0.14.2 scipy-1.1.0 six-1.15.0 tensorboard-1.13.1 tensorflow-estimator-1.13.0 tensorflow-gpu-1.13.1+computecanada termcolor-1.1.0 toolz-0.9.0 zipp-3.1.0
+Ignoring pip: markers 'python_version < "3"' don't match your environment
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/avx2, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/nix/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing ./tensorlayer-1.6.5-py3-none-any.whl
+Requirement already satisfied: scipy in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from tensorlayer==1.6.5) (1.1.0)
+Requirement already satisfied: scikit-image in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from tensorlayer==1.6.5) (0.14.2)
+Requirement already satisfied: numpy in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from tensorlayer==1.6.5) (1.16.2)
+Requirement already satisfied: matplotlib in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from tensorlayer==1.6.5) (3.2.1)
+Requirement already satisfied: pillow>=4.3.0 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from scikit-image->tensorlayer==1.6.5) (7.0.0)
+Requirement already satisfied: dask[array]>=1.0.0 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from scikit-image->tensorlayer==1.6.5) (2.17.0)
+Requirement already satisfied: cloudpickle>=0.2.1 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from scikit-image->tensorlayer==1.6.5) (1.4.1)
+Requirement already satisfied: networkx>=1.8 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from scikit-image->tensorlayer==1.6.5) (2.4)
+Requirement already satisfied: six>=1.10.0 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from scikit-image->tensorlayer==1.6.5) (1.15.0)
+Requirement already satisfied: PyWavelets>=0.4.0 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from scikit-image->tensorlayer==1.6.5) (1.1.1)
+Requirement already satisfied: kiwisolver>=1.0.1 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from matplotlib->tensorlayer==1.6.5) (1.1.0)
+Requirement already satisfied: python-dateutil>=2.1 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from matplotlib->tensorlayer==1.6.5) (2.8.1)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from matplotlib->tensorlayer==1.6.5) (2.4.7)
+Requirement already satisfied: cycler>=0.10 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from matplotlib->tensorlayer==1.6.5) (0.10.0)
+Requirement already satisfied: toolz>=0.8.2; extra == "array" in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from dask[array]>=1.0.0->scikit-image->tensorlayer==1.6.5) (0.9.0)
+Requirement already satisfied: decorator>=4.3.0 in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from networkx>=1.8->scikit-image->tensorlayer==1.6.5) (4.4.2)
+Requirement already satisfied: setuptools in /local/zhehao.32847570.0/env/lib/python3.7/site-packages (from kiwisolver>=1.0.1->matplotlib->tensorlayer==1.6.5) (41.0.1)
+Installing collected packages: tensorlayer
+Successfully installed tensorlayer-1.6.5
+2020-06-13 17:32:15.696409: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1433] Found device 0 with properties: 
+name: Tesla P100-PCIE-12GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+pciBusID: 0000:83:00.0
+totalMemory: 11.91GiB freeMemory: 11.65GiB
+2020-06-13 17:32:15.696722: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1512] Adding visible gpu devices: 0
+2020-06-13 17:32:15.994473: I tensorflow/core/common_runtime/gpu/gpu_device.cc:984] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-06-13 17:32:15.994643: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990]      0 
+2020-06-13 17:32:15.994693: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1003] 0:   N 
+2020-06-13 17:32:15.994843: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11269 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:83:00.0, compute capability: 6.0)
+2020-06-13 17:32:15.995246: I tensorflow/core/common_runtime/process_util.cc:71] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+WARNING:tensorflow:From /localscratch/zhehao.32847570.0/env/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+[!] checkpoint exists ...
+[!] samples/all exists ...
+259
+20 8
+BraTS19_CBICA_AAB_1
+BraTS19_CBICA_AAG_1
+BraTS19_CBICA_AAL_1
+BraTS19_CBICA_AAP_1
+BraTS19_CBICA_ABB_1
+BraTS19_CBICA_ABE_1
+BraTS19_CBICA_ABM_1
+BraTS19_CBICA_ABO_1
+BraTS19_CBICA_ABY_1
+BraTS19_CBICA_ALU_1
+BraTS19_CBICA_ALX_1
+BraTS19_CBICA_AMH_1
+BraTS19_CBICA_ANI_1
+BraTS19_CBICA_ANP_1
+BraTS19_CBICA_ANZ_1
+BraTS19_CBICA_AOH_1
+BraTS19_CBICA_AOO_1
+BraTS19_CBICA_AOP_1
+BraTS19_CBICA_AOZ_1
+BraTS19_CBICA_AQA_1
+BraTS19_CBICA_AQO_1
+BraTS19_CBICA_AQP_1
+BraTS19_CBICA_AQR_1
+BraTS19_CBICA_AQV_1
+BraTS19_CBICA_ARF_1
+BraTS19_CBICA_ASH_1
+BraTS19_CBICA_ASK_1
+BraTS19_CBICA_ASV_1
+BraTS19_CBICA_ASW_1
+BraTS19_CBICA_ATB_1
+BraTS19_CBICA_ATD_1
+BraTS19_CBICA_ATF_1
+BraTS19_CBICA_ATP_1
+BraTS19_CBICA_ATV_1
+BraTS19_CBICA_ATX_1
+BraTS19_CBICA_AUN_1
+BraTS19_CBICA_AUR_1
+BraTS19_CBICA_AVG_1
+BraTS19_CBICA_AVJ_1
+BraTS19_CBICA_AVV_1
+BraTS19_CBICA_AWG_1
+BraTS19_CBICA_AWH_1
+BraTS19_CBICA_AXJ_1
+BraTS19_CBICA_AXL_1
+BraTS19_CBICA_AXQ_1
+BraTS19_CBICA_AXW_1
+BraTS19_CBICA_AYA_1
+BraTS19_CBICA_AYI_1
+BraTS19_CBICA_AYU_1
+BraTS19_CBICA_AZD_1
+BraTS19_CBICA_AZH_1
+BraTS19_CBICA_BFB_1
+BraTS19_CBICA_BHB_1
+BraTS19_CBICA_ANV_1
+BraTS19_CBICA_AOC_1
+BraTS19_CBICA_AOS_1
+BraTS19_CBICA_ASF_1
+BraTS19_CBICA_ATN_1
+BraTS19_CBICA_AUA_1
+BraTS19_CBICA_AUW_1
+BraTS19_CBICA_AVB_1
+BraTS19_CBICA_AVF_1
+BraTS19_CBICA_AWV_1
+BraTS19_CBICA_AWX_1
+BraTS19_CBICA_AYC_1
+BraTS19_CBICA_BAN_1
+BraTS19_CBICA_BAP_1
+BraTS19_CBICA_BAX_1
+BraTS19_CBICA_BCF_1
+BraTS19_CBICA_BCL_1
+BraTS19_CBICA_BDK_1
+BraTS19_CBICA_BEM_1
+BraTS19_CBICA_BGE_1
+BraTS19_CBICA_BGG_1
+BraTS19_CBICA_BGN_1
+BraTS19_CBICA_BGO_1
+BraTS19_CBICA_BGT_1
+BraTS19_CBICA_BGW_1
+BraTS19_CBICA_BGX_1
+BraTS19_CBICA_BHQ_1
+BraTS19_CBICA_BHV_1
+BraTS19_CBICA_BHZ_1
+BraTS19_CBICA_BIC_1
+BraTS19_CBICA_BKV_1
+BraTS19_CBICA_BLJ_1
+BraTS19_CBICA_BNR_1
+BraTS19_2013_27_1
+BraTS19_2013_11_1
+BraTS19_TMC_06290_1
+BraTS19_TMC_06643_1
+BraTS19_TMC_11964_1
+BraTS19_TMC_12866_1
+BraTS19_TMC_15477_1
+BraTS19_TMC_21360_1
+BraTS19_TMC_27374_1
+BraTS19_TMC_30014_1
+BraTS19_CBICA_ABN_1
+BraTS19_CBICA_ALN_1
+BraTS19_CBICA_AOD_1
+BraTS19_CBICA_APR_1
+BraTS19_CBICA_APY_1
+BraTS19_CBICA_APZ_1
+BraTS19_CBICA_AQD_1
+BraTS19_CBICA_AQN_1
+BraTS19_CBICA_AQU_1
+BraTS19_CBICA_AQY_1
+BraTS19_CBICA_AQZ_1
+BraTS19_CBICA_ARW_1
+BraTS19_CBICA_ARZ_1
+BraTS19_CBICA_ASA_1
+BraTS19_CBICA_ASE_1
+BraTS19_CBICA_ASG_1
+BraTS19_CBICA_ASO_1
+BraTS19_CBICA_ASU_1
+BraTS19_CBICA_ASY_1
+BraTS19_CBICA_AXM_1
+BraTS19_CBICA_AXO_1
+BraTS19_CBICA_AYW_1
+BraTS19_CBICA_APK_1
+BraTS19_CBICA_ASR_1
+BraTS19_CBICA_AYG_1
+BraTS19_CBICA_BBG_1
+BraTS19_2013_10_1
+BraTS19_2013_18_1
+BraTS19_2013_21_1
+BraTS19_2013_19_1
+BraTS19_2013_20_1
+BraTS19_2013_2_1
+BraTS19_2013_12_1
+BraTS19_2013_13_1
+BraTS19_2013_7_1
+BraTS19_2013_25_1
+BraTS19_2013_26_1
+BraTS19_2013_23_1
+BraTS19_2013_17_1
+BraTS19_2013_3_1
+BraTS19_2013_4_1
+BraTS19_2013_22_1
+BraTS19_TCIA01_425_1
+BraTS19_TCIA01_190_1
+BraTS19_TCIA01_460_1
+BraTS19_TCIA01_429_1
+BraTS19_TCIA01_201_1
+BraTS19_TCIA01_378_1
+BraTS19_TCIA01_147_1
+BraTS19_TCIA01_401_1
+BraTS19_TCIA01_448_1
+BraTS19_TCIA01_412_1
+BraTS19_TCIA01_499_1
+BraTS19_TCIA01_235_1
+BraTS19_TCIA01_180_1
+BraTS19_TCIA01_131_1
+BraTS19_TCIA01_390_1
+BraTS19_TCIA01_231_1
+BraTS19_TCIA01_203_1
+BraTS19_TCIA01_221_1
+BraTS19_TCIA01_411_1
+BraTS19_TCIA01_335_1
+BraTS19_TCIA01_150_1
+BraTS19_TCIA02_491_1
+BraTS19_TCIA02_331_1
+BraTS19_TCIA02_198_1
+BraTS19_TCIA02_377_1
+BraTS19_TCIA02_290_1
+BraTS19_TCIA02_314_1
+BraTS19_TCIA02_321_1
+BraTS19_TCIA02_430_1
+BraTS19_TCIA02_283_1
+BraTS19_TCIA02_455_1
+BraTS19_TCIA02_226_1
+BraTS19_TCIA02_118_1
+BraTS19_TCIA02_151_1
+BraTS19_TCIA02_168_1
+BraTS19_TCIA02_300_1
+BraTS19_TCIA02_394_1
+BraTS19_TCIA02_471_1
+BraTS19_TCIA02_374_1
+BraTS19_TCIA02_370_1
+BraTS19_TCIA02_135_1
+BraTS19_TCIA02_171_1
+BraTS19_TCIA02_368_1
+BraTS19_TCIA02_608_1
+BraTS19_TCIA02_179_1
+BraTS19_TCIA02_322_1
+BraTS19_TCIA02_208_1
+BraTS19_TCIA02_473_1
+BraTS19_TCIA02_309_1
+BraTS19_TCIA02_222_1
+BraTS19_TCIA02_274_1
+BraTS19_TCIA02_117_1
+BraTS19_TCIA02_606_1
+BraTS19_TCIA02_605_1
+BraTS19_TCIA03_121_1
+BraTS19_TCIA03_375_1
+BraTS19_TCIA03_265_1
+BraTS19_TCIA03_338_1
+BraTS19_TCIA03_138_1
+BraTS19_TCIA03_498_1
+BraTS19_TCIA03_257_1
+BraTS19_TCIA03_133_1
+BraTS19_TCIA03_199_1
+BraTS19_TCIA03_419_1
+BraTS19_TCIA03_474_1
+BraTS19_TCIA04_149_1
+BraTS19_TCIA04_343_1
+BraTS19_TCIA04_111_1
+BraTS19_TCIA04_479_1
+BraTS19_TCIA04_192_1
+BraTS19_TCIA04_328_1
+BraTS19_TCIA04_437_1
+BraTS19_TCIA05_444_1
+BraTS19_TCIA05_478_1
+BraTS19_TCIA05_277_1
+BraTS19_TCIA05_396_1
+BraTS19_TCIA06_184_1
+BraTS19_TCIA06_409_1
+BraTS19_TCIA06_165_1
+BraTS19_TCIA06_372_1
+BraTS19_TCIA06_247_1
+BraTS19_TCIA06_332_1
+BraTS19_TCIA06_603_1
+BraTS19_TCIA06_211_1
+BraTS19_TCIA08_278_1
+BraTS19_TCIA08_105_1
+BraTS19_TCIA08_162_1
+BraTS19_TCIA08_280_1
+BraTS19_TCIA08_406_1
+BraTS19_TCIA08_218_1
+BraTS19_TCIA08_469_1
+BraTS19_TCIA08_319_1
+BraTS19_TCIA08_242_1
+BraTS19_TCIA08_167_1
+BraTS19_TCIA08_205_1
+BraTS19_TCIA08_234_1
+BraTS19_TCIA08_436_1
+BraTS19_TCIA08_113_1
+BraTS19_CBICA_BFP_1
+BraTS19_CBICA_BHK_1
+BraTS19_CBICA_BHM_1
+20 0
+{'flair': {'mean': 42.93488657274065, 'std': 113.51206421977122}, 't1': {'mean': 67.8645472390233, 'std': 176.46393404176294}, 't1ce': {'mean': 87.30619442844342, 'std': 300.87697461911074}, 't2': {'mean': 71.6276810515873, 'std': 206.8903079519916}}
+ HGG Validation
+ LGG Validation
+finished BraTS19_TCIA13_654_1
+ HGG Train
+finished BraTS19_CBICA_AME_1
+finished BraTS19_CBICA_ANG_1
+finished BraTS19_CBICA_AQT_1
+finished BraTS19_CBICA_AWI_1
+finished BraTS19_CBICA_AXN_1
+finished BraTS19_CBICA_AUX_1
+finished BraTS19_CBICA_AVT_1
+finished BraTS19_CBICA_BGR_1
+finished BraTS19_CBICA_BJY_1
+finished BraTS19_CBICA_AQG_1
+finished BraTS19_CBICA_AQJ_1
+finished BraTS19_CBICA_AQQ_1
+finished BraTS19_CBICA_ASN_1
+finished BraTS19_CBICA_AUQ_1
+finished BraTS19_2013_5_1
+finished BraTS19_2013_14_1
+finished BraTS19_TCIA01_186_1
+finished BraTS19_TCIA02_607_1
+finished BraTS19_TCIA03_296_1
+finished BraTS19_TCIA04_361_1
+ LGG Train
+finished BraTS19_TCIA10_442_1
+finished BraTS19_2013_0_1
+finished BraTS19_TCIA10_202_1
+finished BraTS19_TCIA12_480_1
+finished BraTS19_TCIA10_130_1
+finished BraTS19_TCIA12_466_1
+finished BraTS19_TCIA10_152_1
+  [TL] InputLayer  u_net/inputs: (10, 240, 240, 4)
+  [TL] Conv2dLayer u_net/conv1_1: shape:[3, 3, 4, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/conv1_2: shape:[3, 3, 64, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   u_net/pool1: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer u_net/conv2_1: shape:[3, 3, 64, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/conv2_2: shape:[3, 3, 128, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   u_net/pool2: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer u_net/conv3_1: shape:[3, 3, 128, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/conv3_2: shape:[3, 3, 256, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   u_net/pool3: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer u_net/conv4_1: shape:[3, 3, 256, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/conv4_2: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   u_net/pool4: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer u_net/conv5_1: shape:[3, 3, 512, 1024] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/conv5_2: shape:[3, 3, 1024, 1024] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] DeConv2dLayer u_net/deconv4: shape:[3, 3, 512, 1024] out_shape:[10, 30, 30, 512] strides:[1, 2, 2, 1] pad:SAME act:identity
+  [TL] ConcatLayer u_net/concat4: axis: 3
+  [TL] Conv2dLayer u_net/uconv4_1: shape:[3, 3, 1024, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/uconv4_2: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] DeConv2dLayer u_net/deconv3: shape:[3, 3, 256, 512] out_shape:[10, 60, 60, 256] strides:[1, 2, 2, 1] pad:SAME act:identity
+  [TL] ConcatLayer u_net/concat3: axis: 3
+  [TL] Conv2dLayer u_net/uconv3_1: shape:[3, 3, 512, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/uconv3_2: shape:[3, 3, 256, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] DeConv2dLayer u_net/deconv2: shape:[3, 3, 128, 256] out_shape:[10, 120, 120, 128] strides:[1, 2, 2, 1] pad:SAME act:identity
+  [TL] ConcatLayer u_net/concat2: axis: 3
+  [TL] Conv2dLayer u_net/uconv2_1: shape:[3, 3, 256, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/uconv2_2: shape:[3, 3, 128, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] DeConv2dLayer u_net/deconv1: shape:[3, 3, 64, 128] out_shape:[10, 240, 240, 64] strides:[1, 2, 2, 1] pad:SAME act:identity
+  [TL] ConcatLayer u_net/concat1: axis: 3
+  [TL] Conv2dLayer u_net/uconv1_1: shape:[3, 3, 128, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/uconv1_2: shape:[3, 3, 64, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/uconv1: shape:[1, 1, 64, 1] strides:[1, 1, 1, 1] pad:SAME act:sigmoid
+  [TL] InputLayer  u_net/inputs: (10, 240, 240, 4)
+  [TL] Conv2dLayer u_net/conv1_1: shape:[3, 3, 4, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/conv1_2: shape:[3, 3, 64, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   u_net/pool1: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer u_net/conv2_1: shape:[3, 3, 64, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/conv2_2: shape:[3, 3, 128, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   u_net/pool2: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer u_net/conv3_1: shape:[3, 3, 128, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/conv3_2: shape:[3, 3, 256, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   u_net/pool3: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer u_net/conv4_1: shape:[3, 3, 256, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/conv4_2: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] PoolLayer   u_net/pool4: ksize:[1, 2, 2, 1] strides:[1, 2, 2, 1] padding:SAME pool:max_pool
+  [TL] Conv2dLayer u_net/conv5_1: shape:[3, 3, 512, 1024] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/conv5_2: shape:[3, 3, 1024, 1024] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] DeConv2dLayer u_net/deconv4: shape:[3, 3, 512, 1024] out_shape:[10, 30, 30, 512] strides:[1, 2, 2, 1] pad:SAME act:identity
+  [TL] ConcatLayer u_net/concat4: axis: 3
+  [TL] Conv2dLayer u_net/uconv4_1: shape:[3, 3, 1024, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/uconv4_2: shape:[3, 3, 512, 512] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] DeConv2dLayer u_net/deconv3: shape:[3, 3, 256, 512] out_shape:[10, 60, 60, 256] strides:[1, 2, 2, 1] pad:SAME act:identity
+  [TL] ConcatLayer u_net/concat3: axis: 3
+  [TL] Conv2dLayer u_net/uconv3_1: shape:[3, 3, 512, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/uconv3_2: shape:[3, 3, 256, 256] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] DeConv2dLayer u_net/deconv2: shape:[3, 3, 128, 256] out_shape:[10, 120, 120, 128] strides:[1, 2, 2, 1] pad:SAME act:identity
+  [TL] ConcatLayer u_net/concat2: axis: 3
+  [TL] Conv2dLayer u_net/uconv2_1: shape:[3, 3, 256, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/uconv2_2: shape:[3, 3, 128, 128] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] DeConv2dLayer u_net/deconv1: shape:[3, 3, 64, 128] out_shape:[10, 240, 240, 64] strides:[1, 2, 2, 1] pad:SAME act:identity
+  [TL] ConcatLayer u_net/concat1: axis: 3
+  [TL] Conv2dLayer u_net/uconv1_1: shape:[3, 3, 128, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/uconv1_2: shape:[3, 3, 64, 64] strides:[1, 1, 1, 1] pad:SAME act:relu
+  [TL] Conv2dLayer u_net/uconv1: shape:[1, 1, 64, 1] strides:[1, 1, 1, 1] pad:SAME act:sigmoid
+  [*] geting variables with u_net
+  got   0: u_net/conv1_1/W_conv2d:0   (3, 3, 4, 64)
+  got   1: u_net/conv1_1/b_conv2d:0   (64,)
+  got   2: u_net/conv1_2/W_conv2d:0   (3, 3, 64, 64)
+  got   3: u_net/conv1_2/b_conv2d:0   (64,)
+  got   4: u_net/conv2_1/W_conv2d:0   (3, 3, 64, 128)
+  got   5: u_net/conv2_1/b_conv2d:0   (128,)
+  got   6: u_net/conv2_2/W_conv2d:0   (3, 3, 128, 128)
+  got   7: u_net/conv2_2/b_conv2d:0   (128,)
+  got   8: u_net/conv3_1/W_conv2d:0   (3, 3, 128, 256)
+  got   9: u_net/conv3_1/b_conv2d:0   (256,)
+  got  10: u_net/conv3_2/W_conv2d:0   (3, 3, 256, 256)
+  got  11: u_net/conv3_2/b_conv2d:0   (256,)
+  got  12: u_net/conv4_1/W_conv2d:0   (3, 3, 256, 512)
+  got  13: u_net/conv4_1/b_conv2d:0   (512,)
+  got  14: u_net/conv4_2/W_conv2d:0   (3, 3, 512, 512)
+  got  15: u_net/conv4_2/b_conv2d:0   (512,)
+  got  16: u_net/conv5_1/W_conv2d:0   (3, 3, 512, 1024)
+  got  17: u_net/conv5_1/b_conv2d:0   (1024,)
+  got  18: u_net/conv5_2/W_conv2d:0   (3, 3, 1024, 1024)
+  got  19: u_net/conv5_2/b_conv2d:0   (1024,)
+  got  20: u_net/deconv4/W_deconv2d:0   (3, 3, 512, 1024)
+  got  21: u_net/deconv4/b_deconv2d:0   (512,)
+  got  22: u_net/uconv4_1/W_conv2d:0   (3, 3, 1024, 512)
+  got  23: u_net/uconv4_1/b_conv2d:0   (512,)
+  got  24: u_net/uconv4_2/W_conv2d:0   (3, 3, 512, 512)
+  got  25: u_net/uconv4_2/b_conv2d:0   (512,)
+  got  26: u_net/deconv3/W_deconv2d:0   (3, 3, 256, 512)
+  got  27: u_net/deconv3/b_deconv2d:0   (256,)
+  got  28: u_net/uconv3_1/W_conv2d:0   (3, 3, 512, 256)
+  got  29: u_net/uconv3_1/b_conv2d:0   (256,)
+  got  30: u_net/uconv3_2/W_conv2d:0   (3, 3, 256, 256)
+  got  31: u_net/uconv3_2/b_conv2d:0   (256,)
+  got  32: u_net/deconv2/W_deconv2d:0   (3, 3, 128, 256)
+  got  33: u_net/deconv2/b_deconv2d:0   (128,)
+  got  34: u_net/uconv2_1/W_conv2d:0   (3, 3, 256, 128)
+  got  35: u_net/uconv2_1/b_conv2d:0   (128,)
+  got  36: u_net/uconv2_2/W_conv2d:0   (3, 3, 128, 128)
+  got  37: u_net/uconv2_2/b_conv2d:0   (128,)
+  got  38: u_net/deconv1/W_deconv2d:0   (3, 3, 64, 128)
+  got  39: u_net/deconv1/b_deconv2d:0   (64,)
+  got  40: u_net/uconv1_1/W_conv2d:0   (3, 3, 128, 64)
+  got  41: u_net/uconv1_1/b_conv2d:0   (64,)
+  got  42: u_net/uconv1_2/W_conv2d:0   (3, 3, 64, 64)
+  got  43: u_net/uconv1_2/b_conv2d:0   (64,)
+  got  44: u_net/uconv1/W_conv2d:0   (1, 1, 64, 1)
+  got  45: u_net/uconv1/b_conv2d:0   (1,)
+[*] Load checkpoint/u_net_all.npz SUCCESS!
+Epoch 0 step 100 1-dice: 0.014307 hard-dice: 0.965127 iou: 0.932605 took 2.688602s (2d with distortion)
+Epoch 0 step 200 1-dice: 0.018042 hard-dice: 0.955229 iou: 0.914295 took 2.695500s (2d with distortion)
+Epoch 0 step 300 1-dice: 0.022501 hard-dice: 0.943625 iou: 0.893268 took 2.702695s (2d with distortion)
+Epoch 0 step 400 1-dice: 0.092028 hard-dice: 0.847551 iou: 0.735435 took 2.686456s (2d with distortion)
+ ** Epoch [0/100] train 1-dice: 0.037024 hard-dice: 0.928522 iou: 0.869561 took 1131.559502s (2d with distortion)
+ **                 test 1-dice: 0.249324 hard-dice: 0.741746 iou: 0.612403 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 1 step 100 1-dice: 0.018150 hard-dice: 0.954244 iou: 0.912491 took 2.685634s (2d with distortion)
+Epoch 1 step 200 1-dice: 0.015933 hard-dice: 0.959858 iou: 0.922815 took 2.688363s (2d with distortion)
+Epoch 1 step 300 1-dice: 0.018696 hard-dice: 0.949937 iou: 0.904648 took 2.687701s (2d with distortion)
+Epoch 1 step 400 1-dice: 0.117034 hard-dice: 0.782866 iou: 0.643204 took 2.686907s (2d with distortion)
+ ** Epoch [1/100] train 1-dice: 0.030728 hard-dice: 0.936480 iou: 0.882056 took 1127.423982s (2d with distortion)
+ **                 test 1-dice: 0.135980 hard-dice: 0.851093 iou: 0.750288 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 2 step 100 1-dice: 0.028475 hard-dice: 0.927949 iou: 0.865583 took 2.711828s (2d with distortion)
+Epoch 2 step 200 1-dice: 0.018536 hard-dice: 0.956235 iou: 0.916141 took 2.712351s (2d with distortion)
+Epoch 2 step 300 1-dice: 0.005128 hard-dice: 0.984925 iou: 0.970297 took 2.709061s (2d with distortion)
+Epoch 2 step 400 1-dice: 0.018344 hard-dice: 0.950535 iou: 0.905733 took 2.687075s (2d with distortion)
+ ** Epoch [2/100] train 1-dice: 0.036499 hard-dice: 0.930206 iou: 0.875545 took 1126.656239s (2d with distortion)
+ **                 test 1-dice: 0.166151 hard-dice: 0.811242 iou: 0.693009 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 3 step 100 1-dice: 0.065559 hard-dice: 0.874377 iou: 0.776794 took 2.715693s (2d with distortion)
+Epoch 3 step 200 1-dice: 0.028701 hard-dice: 0.938760 iou: 0.884589 took 2.685014s (2d with distortion)
+Epoch 3 step 300 1-dice: 0.013897 hard-dice: 0.959106 iou: 0.921425 took 2.685321s (2d with distortion)
+Epoch 3 step 400 1-dice: 0.021994 hard-dice: 0.949470 iou: 0.903802 took 2.687142s (2d with distortion)
+ ** Epoch [3/100] train 1-dice: 0.038779 hard-dice: 0.925145 iou: 0.866802 took 1126.103724s (2d with distortion)
+ **                 test 1-dice: 0.191140 hard-dice: 0.801579 iou: 0.687524 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 4 step 100 1-dice: 0.009108 hard-dice: 0.968822 iou: 0.939529 took 2.689075s (2d with distortion)
+Epoch 4 step 200 1-dice: 0.011853 hard-dice: 0.974304 iou: 0.949895 took 2.684287s (2d with distortion)
+Epoch 4 step 300 1-dice: 0.034688 hard-dice: 0.934750 iou: 0.877493 took 2.686327s (2d with distortion)
+Epoch 4 step 400 1-dice: 0.008313 hard-dice: 0.972430 iou: 0.946339 took 2.691042s (2d with distortion)
+ ** Epoch [4/100] train 1-dice: 0.030707 hard-dice: 0.937565 iou: 0.885452 took 1125.952937s (2d with distortion)
+ **                 test 1-dice: 0.261258 hard-dice: 0.726815 iou: 0.608759 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 5 step 100 1-dice: 0.029845 hard-dice: 0.912710 iou: 0.839436 took 2.685016s (2d with distortion)
+Epoch 5 step 200 1-dice: 0.018071 hard-dice: 0.957356 iou: 0.918201 took 2.688079s (2d with distortion)
+Epoch 5 step 300 1-dice: 0.023819 hard-dice: 0.945631 iou: 0.896869 took 2.689027s (2d with distortion)
+Epoch 5 step 400 1-dice: 0.020566 hard-dice: 0.950080 iou: 0.904907 took 2.687795s (2d with distortion)
+ ** Epoch [5/100] train 1-dice: 0.034385 hard-dice: 0.932165 iou: 0.877815 took 1125.858996s (2d with distortion)
+ **                 test 1-dice: 0.251455 hard-dice: 0.738342 iou: 0.636581 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 6 step 100 1-dice: 0.125155 hard-dice: 0.832219 iou: 0.712650 took 2.684081s (2d with distortion)
+Epoch 6 step 200 1-dice: 0.029699 hard-dice: 0.943750 iou: 0.893492 took 2.680383s (2d with distortion)
+Epoch 6 step 300 1-dice: 0.043566 hard-dice: 0.914465 iou: 0.842409 took 2.697500s (2d with distortion)
+Epoch 6 step 400 1-dice: 0.102471 hard-dice: 0.837591 iou: 0.720565 took 2.693873s (2d with distortion)
+ ** Epoch [6/100] train 1-dice: 0.050587 hard-dice: 0.915310 iou: 0.849269 took 1124.354819s (2d with distortion)
+ **                 test 1-dice: 0.116489 hard-dice: 0.867975 iou: 0.777047 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 7 step 100 1-dice: 0.016233 hard-dice: 0.958593 iou: 0.920479 took 2.684307s (2d with distortion)
+Epoch 7 step 200 1-dice: 0.017822 hard-dice: 0.956701 iou: 0.916996 took 2.683351s (2d with distortion)
+Epoch 7 step 300 1-dice: 0.057303 hard-dice: 0.897512 iou: 0.814078 took 2.683572s (2d with distortion)
+Epoch 7 step 400 1-dice: 0.041830 hard-dice: 0.911107 iou: 0.836728 took 2.684054s (2d with distortion)
+ ** Epoch [7/100] train 1-dice: 0.036059 hard-dice: 0.927842 iou: 0.871069 took 1124.440708s (2d with distortion)
+ **                 test 1-dice: 0.107949 hard-dice: 0.875417 iou: 0.786372 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 8 step 100 1-dice: 0.016395 hard-dice: 0.953061 iou: 0.910331 took 2.679735s (2d with distortion)
+Epoch 8 step 200 1-dice: 0.033081 hard-dice: 0.932298 iou: 0.873183 took 2.682556s (2d with distortion)
+Epoch 8 step 300 1-dice: 0.019736 hard-dice: 0.939519 iou: 0.885938 took 2.685602s (2d with distortion)
+Epoch 8 step 400 1-dice: 0.026616 hard-dice: 0.937560 iou: 0.882459 took 2.688163s (2d with distortion)
+ ** Epoch [8/100] train 1-dice: 0.045941 hard-dice: 0.920597 iou: 0.859565 took 1124.288304s (2d with distortion)
+ **                 test 1-dice: 0.139970 hard-dice: 0.843977 iou: 0.738517 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 9 step 100 1-dice: 0.020493 hard-dice: 0.945190 iou: 0.896076 took 2.680671s (2d with distortion)
+Epoch 9 step 200 1-dice: 0.037816 hard-dice: 0.912074 iou: 0.838361 took 2.683485s (2d with distortion)
+Epoch 9 step 300 1-dice: 0.053171 hard-dice: 0.885526 iou: 0.794568 took 2.685188s (2d with distortion)
+Epoch 9 step 400 1-dice: 0.028548 hard-dice: 0.935227 iou: 0.878335 took 2.685266s (2d with distortion)
+ ** Epoch [9/100] train 1-dice: 0.035486 hard-dice: 0.927538 iou: 0.869878 took 1124.152318s (2d with distortion)
+ **                 test 1-dice: 0.110751 hard-dice: 0.873030 iou: 0.783451 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 10 step 100 1-dice: 0.044145 hard-dice: 0.910484 iou: 0.835678 took 2.683675s (2d with distortion)
+Epoch 10 step 200 1-dice: 0.016176 hard-dice: 0.960356 iou: 0.923735 took 2.683192s (2d with distortion)
+Epoch 10 step 300 1-dice: 0.036045 hard-dice: 0.913336 iou: 0.840496 took 2.682007s (2d with distortion)
+Epoch 10 step 400 1-dice: 0.040302 hard-dice: 0.905636 iou: 0.827546 took 2.681980s (2d with distortion)
+ ** Epoch [10/100] train 1-dice: 0.034294 hard-dice: 0.932114 iou: 0.877736 took 1124.198519s (2d with distortion)
+ **                 test 1-dice: 0.099273 hard-dice: 0.886982 iou: 0.803505 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 11 step 100 1-dice: 0.023474 hard-dice: 0.945933 iou: 0.897413 took 2.702150s (2d with distortion)
+Epoch 11 step 200 1-dice: 0.025318 hard-dice: 0.938483 iou: 0.884095 took 2.695662s (2d with distortion)
+Epoch 11 step 300 1-dice: 0.017097 hard-dice: 0.955944 iou: 0.915606 took 2.686071s (2d with distortion)
+Epoch 11 step 400 1-dice: 0.033716 hard-dice: 0.918489 iou: 0.849264 took 2.680501s (2d with distortion)
+ ** Epoch [11/100] train 1-dice: 0.024241 hard-dice: 0.942292 iou: 0.892025 took 1124.346771s (2d with distortion)
+ **                 test 1-dice: 0.130197 hard-dice: 0.854564 iou: 0.756434 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 12 step 100 1-dice: 0.006434 hard-dice: 0.979643 iou: 0.960098 took 2.688490s (2d with distortion)
+Epoch 12 step 200 1-dice: 0.024174 hard-dice: 0.938852 iou: 0.884752 took 2.683406s (2d with distortion)
+Epoch 12 step 300 1-dice: 0.011631 hard-dice: 0.965136 iou: 0.932620 took 2.680133s (2d with distortion)
+Epoch 12 step 400 1-dice: 0.021569 hard-dice: 0.944743 iou: 0.895273 took 2.699361s (2d with distortion)
+ ** Epoch [12/100] train 1-dice: 0.031665 hard-dice: 0.934201 iou: 0.883299 took 1124.410187s (2d with distortion)
+ **                 test 1-dice: 0.106236 hard-dice: 0.876409 iou: 0.786213 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 13 step 100 1-dice: 0.033705 hard-dice: 0.919885 iou: 0.851655 took 2.682213s (2d with distortion)
+Epoch 13 step 200 1-dice: 0.033099 hard-dice: 0.917904 iou: 0.848265 took 2.683620s (2d with distortion)
+Epoch 13 step 300 1-dice: 0.010120 hard-dice: 0.972430 iou: 0.946340 took 2.683522s (2d with distortion)
+Epoch 13 step 400 1-dice: 0.014982 hard-dice: 0.960707 iou: 0.924386 took 2.688820s (2d with distortion)
+ ** Epoch [13/100] train 1-dice: 0.034325 hard-dice: 0.930129 iou: 0.872731 took 1124.351387s (2d with distortion)
+ **                 test 1-dice: 0.097034 hard-dice: 0.887419 iou: 0.800324 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 14 step 100 1-dice: 0.016881 hard-dice: 0.957392 iou: 0.918266 took 2.685939s (2d with distortion)
+Epoch 14 step 200 1-dice: 0.065930 hard-dice: 0.870577 iou: 0.770816 took 2.681338s (2d with distortion)
+Epoch 14 step 300 1-dice: 0.057294 hard-dice: 0.900094 iou: 0.818337 took 2.680720s (2d with distortion)
+Epoch 14 step 400 1-dice: 0.036414 hard-dice: 0.928127 iou: 0.865893 took 2.687419s (2d with distortion)
+ ** Epoch [14/100] train 1-dice: 0.046560 hard-dice: 0.915619 iou: 0.854667 took 1124.295209s (2d with distortion)
+ **                 test 1-dice: 0.195618 hard-dice: 0.781060 iou: 0.675253 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 15 step 100 1-dice: 0.028174 hard-dice: 0.932486 iou: 0.873511 took 2.680614s (2d with distortion)
+Epoch 15 step 200 1-dice: 0.023690 hard-dice: 0.945701 iou: 0.896996 took 2.682188s (2d with distortion)
+Epoch 15 step 300 1-dice: 0.038800 hard-dice: 0.894869 iou: 0.809741 took 2.684727s (2d with distortion)
+Epoch 15 step 400 1-dice: 0.040051 hard-dice: 0.910473 iou: 0.835658 took 2.684990s (2d with distortion)
+ ** Epoch [15/100] train 1-dice: 0.031106 hard-dice: 0.932353 iou: 0.876746 took 1124.245996s (2d with distortion)
+ **                 test 1-dice: 0.227205 hard-dice: 0.756020 iou: 0.640985 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 16 step 100 1-dice: 0.025640 hard-dice: 0.940996 iou: 0.888568 took 2.697711s (2d with distortion)
+Epoch 16 step 200 1-dice: 0.023175 hard-dice: 0.941585 iou: 0.889618 took 2.688626s (2d with distortion)
+Epoch 16 step 300 1-dice: 0.014747 hard-dice: 0.962234 iou: 0.927217 took 2.680693s (2d with distortion)
+Epoch 16 step 400 1-dice: 0.049008 hard-dice: 0.891525 iou: 0.804281 took 2.683290s (2d with distortion)
+ ** Epoch [16/100] train 1-dice: 0.069708 hard-dice: 0.891301 iou: 0.818561 took 1124.169365s (2d with distortion)
+ **                 test 1-dice: 0.192369 hard-dice: 0.796922 iou: 0.682340 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 17 step 100 1-dice: 0.033571 hard-dice: 0.928121 iou: 0.865882 took 2.686524s (2d with distortion)
+Epoch 17 step 200 1-dice: 0.015613 hard-dice: 0.950462 iou: 0.905601 took 2.695018s (2d with distortion)
+Epoch 17 step 300 1-dice: 0.023553 hard-dice: 0.935570 iou: 0.878940 took 2.703792s (2d with distortion)
+Epoch 17 step 400 1-dice: 0.016368 hard-dice: 0.958037 iou: 0.919454 took 2.684601s (2d with distortion)
+ ** Epoch [17/100] train 1-dice: 0.035946 hard-dice: 0.930919 iou: 0.874805 took 1124.382728s (2d with distortion)
+ **                 test 1-dice: 0.213080 hard-dice: 0.775556 iou: 0.663751 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 18 step 100 1-dice: 0.011455 hard-dice: 0.962967 iou: 0.928579 took 2.684084s (2d with distortion)
+Epoch 18 step 200 1-dice: 0.064324 hard-dice: 0.881761 iou: 0.788526 took 2.683907s (2d with distortion)
+Epoch 18 step 300 1-dice: 0.012372 hard-dice: 0.968089 iou: 0.938151 took 2.687580s (2d with distortion)
+Epoch 18 step 400 1-dice: 0.016270 hard-dice: 0.952851 iou: 0.909948 took 2.698411s (2d with distortion)
+ ** Epoch [18/100] train 1-dice: 0.028267 hard-dice: 0.936226 iou: 0.883158 took 1124.303704s (2d with distortion)
+ **                 test 1-dice: 0.136429 hard-dice: 0.844517 iou: 0.773499 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 19 step 100 1-dice: 0.040685 hard-dice: 0.906222 iou: 0.828524 took 2.685862s (2d with distortion)
+Epoch 19 step 200 1-dice: 0.018785 hard-dice: 0.954485 iou: 0.912933 took 2.686121s (2d with distortion)
+Epoch 19 step 300 1-dice: 0.021432 hard-dice: 0.946851 iou: 0.899066 took 2.689209s (2d with distortion)
+Epoch 19 step 400 1-dice: 0.016815 hard-dice: 0.953652 iou: 0.911411 took 2.687096s (2d with distortion)
+ ** Epoch [19/100] train 1-dice: 0.033569 hard-dice: 0.929645 iou: 0.872319 took 1124.471627s (2d with distortion)
+ **                 test 1-dice: 0.191530 hard-dice: 0.799115 iou: 0.693602 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 20 step 100 1-dice: 0.020155 hard-dice: 0.946672 iou: 0.898744 took 2.684974s (2d with distortion)
+Epoch 20 step 200 1-dice: 0.016945 hard-dice: 0.954958 iou: 0.913798 took 2.686303s (2d with distortion)
+Epoch 20 step 300 1-dice: 0.014655 hard-dice: 0.953834 iou: 0.911743 took 2.682148s (2d with distortion)
+Epoch 20 step 400 1-dice: 0.034739 hard-dice: 0.916613 iou: 0.846062 took 2.687506s (2d with distortion)
+ ** Epoch [20/100] train 1-dice: 0.027732 hard-dice: 0.940477 iou: 0.888949 took 1124.529321s (2d with distortion)
+ **                 test 1-dice: 0.168776 hard-dice: 0.819199 iou: 0.714705 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 21 step 100 1-dice: 0.037513 hard-dice: 0.925642 iou: 0.861576 took 2.683767s (2d with distortion)
+Epoch 21 step 200 1-dice: 0.027763 hard-dice: 0.932766 iou: 0.874004 took 2.683370s (2d with distortion)
+Epoch 21 step 300 1-dice: 0.021523 hard-dice: 0.943701 iou: 0.893402 took 2.685849s (2d with distortion)
+Epoch 21 step 400 1-dice: 0.023042 hard-dice: 0.945562 iou: 0.896745 took 2.683264s (2d with distortion)
+ ** Epoch [21/100] train 1-dice: 0.045511 hard-dice: 0.920673 iou: 0.859214 took 1124.528215s (2d with distortion)
+ **                 test 1-dice: 0.181039 hard-dice: 0.806605 iou: 0.691779 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 22 step 100 1-dice: 0.046778 hard-dice: 0.900769 iou: 0.819453 took 2.696571s (2d with distortion)
+Epoch 22 step 200 1-dice: 0.022541 hard-dice: 0.951577 iou: 0.907626 took 2.698867s (2d with distortion)
+Epoch 22 step 300 1-dice: 0.038949 hard-dice: 0.919063 iou: 0.850247 took 2.688633s (2d with distortion)
+Epoch 22 step 400 1-dice: 0.024836 hard-dice: 0.943214 iou: 0.892532 took 2.681865s (2d with distortion)
+ ** Epoch [22/100] train 1-dice: 0.037730 hard-dice: 0.925580 iou: 0.866963 took 1124.464446s (2d with distortion)
+ **                 test 1-dice: 0.316297 hard-dice: 0.675976 iou: 0.536894 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 23 step 100 1-dice: 0.021826 hard-dice: 0.944196 iou: 0.894292 took 2.686602s (2d with distortion)
+Epoch 23 step 200 1-dice: 0.713601 hard-dice: 1.000000 iou: 1.000000 took 2.682146s (2d with distortion)
+Epoch 23 step 300 1-dice: 0.023819 hard-dice: 0.945271 iou: 0.896221 took 2.696774s (2d with distortion)
+Epoch 23 step 400 1-dice: 0.048183 hard-dice: 0.868726 iou: 0.767918 took 2.700327s (2d with distortion)
+ ** Epoch [23/100] train 1-dice: 0.046954 hard-dice: 0.916269 iou: 0.853974 took 1124.488010s (2d with distortion)
+ **                 test 1-dice: 0.176340 hard-dice: 0.811942 iou: 0.697373 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 24 step 100 1-dice: 0.011883 hard-dice: 0.970695 iou: 0.943059 took 2.680390s (2d with distortion)
+Epoch 24 step 200 1-dice: 0.026624 hard-dice: 0.937473 iou: 0.882305 took 2.681645s (2d with distortion)
+Epoch 24 step 300 1-dice: 0.029356 hard-dice: 0.936536 iou: 0.880648 took 2.682011s (2d with distortion)
+Epoch 24 step 400 1-dice: 0.041961 hard-dice: 0.908022 iou: 0.831540 took 2.680688s (2d with distortion)
+ ** Epoch [24/100] train 1-dice: 0.040172 hard-dice: 0.925190 iou: 0.866899 took 1123.274299s (2d with distortion)
+ **                 test 1-dice: 0.192258 hard-dice: 0.794885 iou: 0.669687 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 25 step 100 1-dice: 0.030688 hard-dice: 0.932174 iou: 0.872964 took 2.681493s (2d with distortion)
+Epoch 25 step 200 1-dice: 0.018354 hard-dice: 0.944124 iou: 0.894162 took 2.683407s (2d with distortion)
+Epoch 25 step 300 1-dice: 0.039216 hard-dice: 0.910811 iou: 0.836229 took 2.680074s (2d with distortion)
+Epoch 25 step 400 1-dice: 0.011290 hard-dice: 0.968936 iou: 0.939743 took 2.679127s (2d with distortion)
+ ** Epoch [25/100] train 1-dice: 0.032992 hard-dice: 0.935155 iou: 0.882310 took 1122.764449s (2d with distortion)
+ **                 test 1-dice: 0.132641 hard-dice: 0.853465 iou: 0.752085 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 26 step 100 1-dice: 0.071196 hard-dice: 0.813861 iou: 0.686142 took 2.682879s (2d with distortion)
+Epoch 26 step 200 1-dice: 0.018782 hard-dice: 0.946389 iou: 0.898235 took 2.684368s (2d with distortion)
+Epoch 26 step 300 1-dice: 0.039538 hard-dice: 0.927293 iou: 0.864441 took 2.685148s (2d with distortion)
+Epoch 26 step 400 1-dice: 0.019503 hard-dice: 0.953783 iou: 0.911650 took 2.687277s (2d with distortion)
+ ** Epoch [26/100] train 1-dice: 0.040598 hard-dice: 0.925039 iou: 0.863954 took 1124.571673s (2d with distortion)
+ **                 test 1-dice: 0.308230 hard-dice: 0.685423 iou: 0.566702 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 27 step 100 1-dice: 0.021396 hard-dice: 0.947027 iou: 0.899384 took 2.682408s (2d with distortion)
+Epoch 27 step 200 1-dice: 0.049432 hard-dice: 0.894929 iou: 0.809838 took 2.682803s (2d with distortion)
+Epoch 27 step 300 1-dice: 0.022098 hard-dice: 0.956941 iou: 0.917437 took 2.688570s (2d with distortion)
+Epoch 27 step 400 1-dice: 0.076242 hard-dice: 0.888261 iou: 0.798983 took 2.683847s (2d with distortion)
+ ** Epoch [27/100] train 1-dice: 0.031745 hard-dice: 0.933154 iou: 0.876964 took 1124.825302s (2d with distortion)
+ **                 test 1-dice: 0.296702 hard-dice: 0.695516 iou: 0.562532 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 28 step 100 1-dice: 0.122416 hard-dice: 0.816659 iou: 0.690130 took 2.700795s (2d with distortion)
+Epoch 28 step 200 1-dice: 0.014875 hard-dice: 0.959948 iou: 0.922981 took 2.685840s (2d with distortion)
+Epoch 28 step 300 1-dice: 0.031259 hard-dice: 0.930627 iou: 0.870255 took 2.683759s (2d with distortion)
+Epoch 28 step 400 1-dice: 0.014971 hard-dice: 0.960898 iou: 0.924738 took 2.685209s (2d with distortion)
+ ** Epoch [28/100] train 1-dice: 0.049890 hard-dice: 0.913061 iou: 0.850371 took 1124.813319s (2d with distortion)
+ **                 test 1-dice: 0.163834 hard-dice: 0.821137 iou: 0.708802 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 29 step 100 1-dice: 0.020220 hard-dice: 0.939097 iou: 0.885187 took 2.685495s (2d with distortion)
+Epoch 29 step 200 1-dice: 0.024521 hard-dice: 0.926164 iou: 0.862482 took 2.687242s (2d with distortion)
+Epoch 29 step 300 1-dice: 0.021038 hard-dice: 0.945638 iou: 0.896881 took 2.701357s (2d with distortion)
+Epoch 29 step 400 1-dice: 0.018434 hard-dice: 0.951294 iou: 0.907111 took 2.702545s (2d with distortion)
+ ** Epoch [29/100] train 1-dice: 0.041348 hard-dice: 0.926563 iou: 0.872538 took 1124.820095s (2d with distortion)
+ **                 test 1-dice: 0.148336 hard-dice: 0.838792 iou: 0.734401 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 30 step 100 1-dice: 0.021532 hard-dice: 0.948025 iou: 0.901185 took 2.684816s (2d with distortion)
+Epoch 30 step 200 1-dice: 0.041037 hard-dice: 0.914756 iou: 0.842903 took 2.685398s (2d with distortion)
+Epoch 30 step 300 1-dice: 0.029586 hard-dice: 0.938673 iou: 0.884434 took 2.680278s (2d with distortion)
+Epoch 30 step 400 1-dice: 0.078870 hard-dice: 0.878123 iou: 0.782726 took 2.678789s (2d with distortion)
+ ** Epoch [30/100] train 1-dice: 0.034448 hard-dice: 0.932413 iou: 0.876092 took 1124.673492s (2d with distortion)
+ **                 test 1-dice: 0.133229 hard-dice: 0.853331 iou: 0.757209 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 31 step 100 1-dice: 0.112710 hard-dice: 0.768131 iou: 0.623549 took 2.676447s (2d with distortion)
+Epoch 31 step 200 1-dice: 0.023607 hard-dice: 0.933945 iou: 0.876077 took 2.676491s (2d with distortion)
+Epoch 31 step 300 1-dice: 0.046155 hard-dice: 0.908193 iou: 0.831825 took 2.678710s (2d with distortion)
+Epoch 31 step 400 1-dice: 0.027302 hard-dice: 0.940828 iou: 0.888268 took 2.697095s (2d with distortion)
+ ** Epoch [31/100] train 1-dice: 0.036230 hard-dice: 0.932552 iou: 0.875887 took 1122.646052s (2d with distortion)
+ **                 test 1-dice: 0.143837 hard-dice: 0.844413 iou: 0.738934 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 32 step 100 1-dice: 0.028155 hard-dice: 0.940434 iou: 0.887566 took 2.688222s (2d with distortion)
+Epoch 32 step 200 1-dice: 0.017909 hard-dice: 0.959056 iou: 0.921334 took 2.684012s (2d with distortion)
+Epoch 32 step 300 1-dice: 0.039167 hard-dice: 0.914266 iou: 0.842071 took 2.681231s (2d with distortion)
+Epoch 32 step 400 1-dice: 0.035451 hard-dice: 0.926981 iou: 0.863899 took 2.683521s (2d with distortion)
+ ** Epoch [32/100] train 1-dice: 0.038398 hard-dice: 0.931276 iou: 0.877956 took 1124.116130s (2d with distortion)
+ **                 test 1-dice: 0.174723 hard-dice: 0.812268 iou: 0.713782 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 33 step 100 1-dice: 0.054222 hard-dice: 0.878719 iou: 0.783675 took 2.684780s (2d with distortion)
+Epoch 33 step 200 1-dice: 0.011217 hard-dice: 0.965952 iou: 0.934146 took 2.683973s (2d with distortion)
+Epoch 33 step 300 1-dice: 0.023422 hard-dice: 0.946373 iou: 0.898206 took 2.684019s (2d with distortion)
+Epoch 33 step 400 1-dice: 0.099997 hard-dice: 0.807299 iou: 0.676867 took 2.681741s (2d with distortion)
+ ** Epoch [33/100] train 1-dice: 0.037371 hard-dice: 0.928264 iou: 0.872332 took 1124.000186s (2d with distortion)
+ **                 test 1-dice: 0.206105 hard-dice: 0.785798 iou: 0.674437 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 34 step 100 1-dice: 0.049562 hard-dice: 0.890509 iou: 0.802629 took 2.699870s (2d with distortion)
+Epoch 34 step 200 1-dice: 0.033562 hard-dice: 0.939048 iou: 0.885100 took 2.680741s (2d with distortion)
+Epoch 34 step 300 1-dice: 0.039388 hard-dice: 0.932012 iou: 0.872681 took 2.684215s (2d with distortion)
+Epoch 34 step 400 1-dice: 0.061162 hard-dice: 0.897554 iou: 0.814147 took 2.681531s (2d with distortion)
+ ** Epoch [34/100] train 1-dice: 0.049697 hard-dice: 0.917396 iou: 0.853310 took 1123.973066s (2d with distortion)
+ **                 test 1-dice: 0.197891 hard-dice: 0.787722 iou: 0.694023 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 35 step 100 1-dice: 0.022409 hard-dice: 0.948521 iou: 0.902082 took 2.688098s (2d with distortion)
+Epoch 35 step 200 1-dice: 0.025688 hard-dice: 0.942013 iou: 0.890382 took 2.698632s (2d with distortion)
+Epoch 35 step 300 1-dice: 0.032525 hard-dice: 0.921745 iou: 0.854849 took 2.693195s (2d with distortion)
+Epoch 35 step 400 1-dice: 0.015743 hard-dice: 0.958529 iou: 0.920361 took 2.683366s (2d with distortion)
+ ** Epoch [35/100] train 1-dice: 0.038902 hard-dice: 0.927817 iou: 0.870575 took 1124.173418s (2d with distortion)
+ **                 test 1-dice: 0.108182 hard-dice: 0.879804 iou: 0.790129 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 36 step 100 1-dice: 0.018987 hard-dice: 0.956976 iou: 0.917502 took 2.683415s (2d with distortion)
+Epoch 36 step 200 1-dice: 0.020483 hard-dice: 0.951054 iou: 0.906676 took 2.685310s (2d with distortion)
+Epoch 36 step 300 1-dice: 0.010844 hard-dice: 0.967126 iou: 0.936345 took 2.683194s (2d with distortion)
+Epoch 36 step 400 1-dice: 0.025794 hard-dice: 0.941847 iou: 0.890085 took 2.698639s (2d with distortion)
+ ** Epoch [36/100] train 1-dice: 0.035869 hard-dice: 0.927614 iou: 0.871659 took 1124.190502s (2d with distortion)
+ **                 test 1-dice: 0.169964 hard-dice: 0.819115 iou: 0.705727 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 37 step 100 1-dice: 0.019569 hard-dice: 0.950948 iou: 0.906483 took 2.683349s (2d with distortion)
+Epoch 37 step 200 1-dice: 0.049276 hard-dice: 0.911013 iou: 0.836569 took 2.686087s (2d with distortion)
+Epoch 37 step 300 1-dice: 0.048578 hard-dice: 0.905109 iou: 0.826667 took 2.685354s (2d with distortion)
+Epoch 37 step 400 1-dice: 0.043875 hard-dice: 0.899965 iou: 0.818124 took 2.679542s (2d with distortion)
+ ** Epoch [37/100] train 1-dice: 0.033869 hard-dice: 0.929918 iou: 0.872974 took 1124.224988s (2d with distortion)
+ **                 test 1-dice: 0.183859 hard-dice: 0.805211 iou: 0.718207 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 38 step 100 1-dice: 0.028668 hard-dice: 0.929680 iou: 0.868600 took 2.680947s (2d with distortion)
+Epoch 38 step 200 1-dice: 0.029662 hard-dice: 0.929821 iou: 0.868845 took 2.681635s (2d with distortion)
+Epoch 38 step 300 1-dice: 0.018563 hard-dice: 0.952525 iou: 0.909354 took 2.681687s (2d with distortion)
+Epoch 38 step 400 1-dice: 0.019346 hard-dice: 0.948806 iou: 0.902599 took 2.681197s (2d with distortion)
+ ** Epoch [38/100] train 1-dice: 0.033435 hard-dice: 0.932473 iou: 0.880903 took 1124.192813s (2d with distortion)
+ **                 test 1-dice: 0.138087 hard-dice: 0.850249 iou: 0.751260 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 39 step 100 1-dice: 0.016729 hard-dice: 0.961889 iou: 0.926576 took 2.685701s (2d with distortion)
+Epoch 39 step 200 1-dice: 0.018324 hard-dice: 0.950813 iou: 0.906238 took 2.686064s (2d with distortion)
+Epoch 39 step 300 1-dice: 0.037568 hard-dice: 0.915592 iou: 0.844324 took 2.679055s (2d with distortion)
+Epoch 39 step 400 1-dice: 0.019631 hard-dice: 0.951499 iou: 0.907485 took 2.680362s (2d with distortion)
+ ** Epoch [39/100] train 1-dice: 0.031478 hard-dice: 0.937324 iou: 0.887111 took 1124.153368s (2d with distortion)
+ **                 test 1-dice: 0.144378 hard-dice: 0.839650 iou: 0.736105 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 40 step 100 1-dice: 0.025944 hard-dice: 0.935856 iou: 0.879445 took 2.702293s (2d with distortion)
+Epoch 40 step 200 1-dice: 0.048067 hard-dice: 0.901881 iou: 0.821296 took 2.684056s (2d with distortion)
+Epoch 40 step 300 1-dice: 0.011936 hard-dice: 0.965037 iou: 0.932437 took 2.684178s (2d with distortion)
+Epoch 40 step 400 1-dice: 0.027622 hard-dice: 0.931526 iou: 0.871828 took 2.682822s (2d with distortion)
+ ** Epoch [40/100] train 1-dice: 0.028891 hard-dice: 0.936251 iou: 0.882881 took 1124.116554s (2d with distortion)
+ **                 test 1-dice: 0.155176 hard-dice: 0.827743 iou: 0.723781 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 41 step 100 1-dice: 0.009322 hard-dice: 0.969451 iou: 0.940713 took 2.679224s (2d with distortion)
+Epoch 41 step 200 1-dice: 0.021657 hard-dice: 0.953518 iou: 0.911164 took 2.696622s (2d with distortion)
+Epoch 41 step 300 1-dice: 0.027602 hard-dice: 0.938424 iou: 0.883991 took 2.697871s (2d with distortion)
+Epoch 41 step 400 1-dice: 0.018589 hard-dice: 0.957109 iou: 0.917746 took 2.684016s (2d with distortion)
+ ** Epoch [41/100] train 1-dice: 0.029167 hard-dice: 0.934931 iou: 0.880840 took 1124.023180s (2d with distortion)
+ **                 test 1-dice: 0.175945 hard-dice: 0.810918 iou: 0.694171 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 42 step 100 1-dice: 0.005421 hard-dice: 0.981698 iou: 0.964053 took 2.684975s (2d with distortion)
+Epoch 42 step 200 1-dice: 0.011368 hard-dice: 0.968135 iou: 0.938238 took 2.680613s (2d with distortion)
+Epoch 42 step 300 1-dice: 0.013114 hard-dice: 0.970228 iou: 0.942178 took 2.680676s (2d with distortion)
+Epoch 42 step 400 1-dice: 0.016949 hard-dice: 0.956787 iou: 0.917154 took 2.699873s (2d with distortion)
+ ** Epoch [42/100] train 1-dice: 0.038714 hard-dice: 0.926900 iou: 0.868974 took 1124.173140s (2d with distortion)
+ **                 test 1-dice: 0.264484 hard-dice: 0.728373 iou: 0.604894 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 43 step 100 1-dice: 0.025040 hard-dice: 0.935112 iou: 0.878131 took 2.684720s (2d with distortion)
+Epoch 43 step 200 1-dice: 0.037762 hard-dice: 0.931338 iou: 0.871499 took 2.680068s (2d with distortion)
+Epoch 43 step 300 1-dice: 0.028378 hard-dice: 0.937299 iou: 0.881997 took 2.681134s (2d with distortion)
+Epoch 43 step 400 1-dice: 0.027655 hard-dice: 0.933835 iou: 0.875883 took 2.683623s (2d with distortion)
+ ** Epoch [43/100] train 1-dice: 0.053787 hard-dice: 0.906815 iou: 0.842929 took 1124.159619s (2d with distortion)
+ **                 test 1-dice: 0.102894 hard-dice: 0.878295 iou: 0.785894 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 44 step 100 1-dice: 0.034055 hard-dice: 0.922425 iou: 0.856020 took 2.683808s (2d with distortion)
+Epoch 44 step 200 1-dice: 0.019669 hard-dice: 0.956196 iou: 0.916069 took 2.701472s (2d with distortion)
+Epoch 44 step 300 1-dice: 0.048033 hard-dice: 0.911840 iou: 0.837966 took 2.681823s (2d with distortion)
+Epoch 44 step 400 1-dice: 0.012814 hard-dice: 0.968406 iou: 0.938747 took 2.685411s (2d with distortion)
+ ** Epoch [44/100] train 1-dice: 0.040319 hard-dice: 0.924564 iou: 0.865605 took 1124.114128s (2d with distortion)
+ **                 test 1-dice: 0.224015 hard-dice: 0.754742 iou: 0.631569 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 45 step 100 1-dice: 0.018986 hard-dice: 0.946460 iou: 0.898362 took 2.679830s (2d with distortion)
+Epoch 45 step 200 1-dice: 0.026843 hard-dice: 0.933290 iou: 0.874925 took 2.681634s (2d with distortion)
+Epoch 45 step 300 1-dice: 0.227726 hard-dice: 0.723987 iou: 0.567382 took 2.679527s (2d with distortion)
+Epoch 45 step 400 1-dice: 0.033022 hard-dice: 0.920544 iou: 0.852785 took 2.686624s (2d with distortion)
+ ** Epoch [45/100] train 1-dice: 0.035488 hard-dice: 0.928693 iou: 0.872660 took 1124.198443s (2d with distortion)
+ **                 test 1-dice: 0.098800 hard-dice: 0.882891 iou: 0.795779 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 46 step 100 1-dice: 0.015427 hard-dice: 0.957551 iou: 0.918558 took 2.699219s (2d with distortion)
+Epoch 46 step 200 1-dice: 0.020047 hard-dice: 0.952470 iou: 0.909253 took 2.686573s (2d with distortion)
+Epoch 46 step 300 1-dice: 0.048765 hard-dice: 0.904881 iou: 0.826286 took 2.684345s (2d with distortion)
+Epoch 46 step 400 1-dice: 0.084967 hard-dice: 0.865521 iou: 0.762923 took 2.680772s (2d with distortion)
+ ** Epoch [46/100] train 1-dice: 0.039722 hard-dice: 0.929683 iou: 0.873654 took 1124.171271s (2d with distortion)
+ **                 test 1-dice: 0.273887 hard-dice: 0.717061 iou: 0.603149 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 47 step 100 1-dice: 0.014476 hard-dice: 0.963168 iou: 0.928952 took 2.681935s (2d with distortion)
+Epoch 47 step 200 1-dice: 0.039185 hard-dice: 0.891429 iou: 0.804124 took 2.697183s (2d with distortion)
+Epoch 47 step 300 1-dice: 0.031777 hard-dice: 0.926773 iou: 0.863538 took 2.699390s (2d with distortion)
+Epoch 47 step 400 1-dice: 0.037290 hard-dice: 0.923204 iou: 0.857362 took 2.683868s (2d with distortion)
+ ** Epoch [47/100] train 1-dice: 0.034493 hard-dice: 0.931684 iou: 0.875067 took 1124.043457s (2d with distortion)
+ **                 test 1-dice: 0.171895 hard-dice: 0.802709 iou: 0.674925 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 48 step 100 1-dice: 0.019559 hard-dice: 0.946563 iou: 0.898547 took 2.685973s (2d with distortion)
+Epoch 48 step 200 1-dice: 0.017394 hard-dice: 0.951901 iou: 0.908217 took 2.689677s (2d with distortion)
+Epoch 48 step 300 1-dice: 0.035689 hard-dice: 0.929409 iou: 0.868127 took 2.682687s (2d with distortion)
+Epoch 48 step 400 1-dice: 0.033219 hard-dice: 0.920413 iou: 0.852560 took 2.696200s (2d with distortion)
+ ** Epoch [48/100] train 1-dice: 0.028861 hard-dice: 0.937735 iou: 0.887431 took 1124.042821s (2d with distortion)
+ **                 test 1-dice: 0.226935 hard-dice: 0.755428 iou: 0.620847 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 49 step 100 1-dice: 0.053954 hard-dice: 0.894350 iou: 0.808891 took 2.682336s (2d with distortion)
+Epoch 49 step 200 1-dice: 0.016330 hard-dice: 0.953391 iou: 0.910934 took 2.683960s (2d with distortion)
+Epoch 49 step 300 1-dice: 0.034750 hard-dice: 0.918660 iou: 0.849558 took 2.681110s (2d with distortion)
+Epoch 49 step 400 1-dice: 0.020129 hard-dice: 0.944207 iou: 0.894311 took 2.681021s (2d with distortion)
+ ** Epoch [49/100] train 1-dice: 0.026021 hard-dice: 0.940860 iou: 0.891223 took 1124.102086s (2d with distortion)
+ **                 test 1-dice: 0.254556 hard-dice: 0.733810 iou: 0.616178 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 50 step 100 1-dice: 0.021134 hard-dice: 0.953313 iou: 0.910791 took 2.681352s (2d with distortion)
+Epoch 50 step 200 1-dice: 0.011694 hard-dice: 0.969868 iou: 0.941498 took 2.688354s (2d with distortion)
+Epoch 50 step 300 1-dice: 0.043962 hard-dice: 0.916078 iou: 0.845151 took 2.681283s (2d with distortion)
+Epoch 50 step 400 1-dice: 0.017242 hard-dice: 0.956756 iou: 0.917096 took 2.681327s (2d with distortion)
+ ** Epoch [50/100] train 1-dice: 0.042690 hard-dice: 0.923488 iou: 0.865885 took 1124.055383s (2d with distortion)
+ **                 test 1-dice: 0.110474 hard-dice: 0.873399 iou: 0.776884 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 51 step 100 1-dice: 0.054757 hard-dice: 0.880711 iou: 0.786849 took 2.683761s (2d with distortion)
+Epoch 51 step 200 1-dice: 0.044477 hard-dice: 0.915953 iou: 0.844939 took 2.688996s (2d with distortion)
+Epoch 51 step 300 1-dice: 0.140753 hard-dice: 0.783505 iou: 0.644068 took 2.684960s (2d with distortion)
+Epoch 51 step 400 1-dice: 0.089387 hard-dice: 0.851337 iou: 0.741155 took 2.679475s (2d with distortion)
+ ** Epoch [51/100] train 1-dice: 0.047892 hard-dice: 0.918554 iou: 0.855935 took 1124.069269s (2d with distortion)
+ **                 test 1-dice: 0.166225 hard-dice: 0.824379 iou: 0.710087 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 52 step 100 1-dice: 0.023104 hard-dice: 0.948121 iou: 0.901359 took 2.687506s (2d with distortion)
+Epoch 52 step 200 1-dice: 0.064579 hard-dice: 0.894780 iou: 0.809594 took 2.692298s (2d with distortion)
+Epoch 52 step 300 1-dice: 0.028809 hard-dice: 0.943133 iou: 0.892385 took 2.681519s (2d with distortion)
+Epoch 52 step 400 1-dice: 0.019752 hard-dice: 0.950358 iou: 0.905411 took 2.680815s (2d with distortion)
+ ** Epoch [52/100] train 1-dice: 0.050859 hard-dice: 0.913279 iou: 0.848197 took 1124.213799s (2d with distortion)
+ **                 test 1-dice: 0.141453 hard-dice: 0.841615 iou: 0.730002 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 53 step 100 1-dice: 0.009336 hard-dice: 0.971789 iou: 0.945126 took 2.698767s (2d with distortion)
+Epoch 53 step 200 1-dice: 0.024749 hard-dice: 0.939686 iou: 0.886234 took 2.702065s (2d with distortion)
+Epoch 53 step 300 1-dice: 0.015843 hard-dice: 0.960153 iou: 0.923360 took 2.684417s (2d with distortion)
+Epoch 53 step 400 1-dice: 0.023754 hard-dice: 0.951956 iou: 0.908316 took 2.680276s (2d with distortion)
+ ** Epoch [53/100] train 1-dice: 0.042154 hard-dice: 0.924930 iou: 0.868976 took 1124.045460s (2d with distortion)
+ **                 test 1-dice: 0.218728 hard-dice: 0.828401 iou: 0.739595 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 54 step 100 1-dice: 0.029561 hard-dice: 0.917589 iou: 0.847727 took 2.683082s (2d with distortion)
+Epoch 54 step 200 1-dice: 0.031171 hard-dice: 0.936457 iou: 0.880507 took 2.686218s (2d with distortion)
+Epoch 54 step 300 1-dice: 0.024049 hard-dice: 0.944371 iou: 0.894606 took 2.678416s (2d with distortion)
+Epoch 54 step 400 1-dice: 0.016128 hard-dice: 0.957259 iou: 0.918022 took 2.695291s (2d with distortion)
+ ** Epoch [54/100] train 1-dice: 0.038815 hard-dice: 0.930803 iou: 0.877467 took 1124.307659s (2d with distortion)
+ **                 test 1-dice: 0.268177 hard-dice: 0.716418 iou: 0.617958 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 55 step 100 1-dice: 0.018026 hard-dice: 0.950144 iou: 0.905022 took 2.683629s (2d with distortion)
+Epoch 55 step 200 1-dice: 0.013409 hard-dice: 0.965364 iou: 0.933046 took 2.687315s (2d with distortion)
+Epoch 55 step 300 1-dice: 0.013449 hard-dice: 0.960418 iou: 0.923850 took 2.684207s (2d with distortion)
+Epoch 55 step 400 1-dice: 0.031746 hard-dice: 0.932403 iou: 0.873366 took 2.682260s (2d with distortion)
+ ** Epoch [55/100] train 1-dice: 0.034681 hard-dice: 0.932416 iou: 0.876926 took 1124.212878s (2d with distortion)
+ **                 test 1-dice: 0.256763 hard-dice: 0.734102 iou: 0.624750 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 56 step 100 1-dice: 0.018107 hard-dice: 0.952774 iou: 0.909807 took 2.682032s (2d with distortion)
+Epoch 56 step 200 1-dice: 0.031088 hard-dice: 0.927242 iou: 0.864353 took 2.682811s (2d with distortion)
+Epoch 56 step 300 1-dice: 0.014566 hard-dice: 0.956321 iou: 0.916298 took 2.683787s (2d with distortion)
+Epoch 56 step 400 1-dice: 0.013278 hard-dice: 0.965697 iou: 0.933669 took 2.681960s (2d with distortion)
+ ** Epoch [56/100] train 1-dice: 0.028280 hard-dice: 0.938574 iou: 0.887255 took 1124.267088s (2d with distortion)
+ **                 test 1-dice: 0.160233 hard-dice: 0.829936 iou: 0.721437 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 57 step 100 1-dice: 0.049126 hard-dice: 0.897560 iou: 0.814157 took 2.686911s (2d with distortion)
+Epoch 57 step 200 1-dice: 0.024471 hard-dice: 0.932108 iou: 0.872848 took 2.683190s (2d with distortion)
+Epoch 57 step 300 1-dice: 0.017834 hard-dice: 0.953207 iou: 0.910597 took 2.682946s (2d with distortion)
+Epoch 57 step 400 1-dice: 0.008968 hard-dice: 0.973461 iou: 0.948294 took 2.682152s (2d with distortion)
+ ** Epoch [57/100] train 1-dice: 0.027111 hard-dice: 0.938852 iou: 0.886840 took 1124.037602s (2d with distortion)
+ **                 test 1-dice: 0.153247 hard-dice: 0.833022 iou: 0.728156 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 58 step 100 1-dice: 0.028150 hard-dice: 0.929336 iou: 0.868000 took 2.685782s (2d with distortion)
+Epoch 58 step 200 1-dice: 0.032326 hard-dice: 0.935717 iou: 0.879199 took 2.686672s (2d with distortion)
+Epoch 58 step 300 1-dice: 0.027394 hard-dice: 0.936188 iou: 0.880031 took 2.680756s (2d with distortion)
+Epoch 58 step 400 1-dice: 0.017171 hard-dice: 0.953758 iou: 0.911604 took 2.680051s (2d with distortion)
+ ** Epoch [58/100] train 1-dice: 0.030449 hard-dice: 0.934503 iou: 0.881100 took 1124.083198s (2d with distortion)
+ **                 test 1-dice: 0.248555 hard-dice: 0.737250 iou: 0.632206 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 59 step 100 1-dice: 0.034930 hard-dice: 0.916019 iou: 0.845050 took 2.697032s (2d with distortion)
+Epoch 59 step 200 1-dice: 0.023021 hard-dice: 0.941738 iou: 0.889891 took 2.694800s (2d with distortion)
+Epoch 59 step 300 1-dice: 0.017394 hard-dice: 0.952381 iou: 0.909091 took 2.680842s (2d with distortion)
+Epoch 59 step 400 1-dice: 0.009016 hard-dice: 0.973587 iou: 0.948533 took 2.682353s (2d with distortion)
+ ** Epoch [59/100] train 1-dice: 0.024907 hard-dice: 0.940825 iou: 0.890268 took 1124.016080s (2d with distortion)
+ **                 test 1-dice: 0.139532 hard-dice: 0.845805 iou: 0.738948 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 60 step 100 1-dice: 0.038643 hard-dice: 0.911214 iou: 0.836907 took 2.681566s (2d with distortion)
+Epoch 60 step 200 1-dice: 0.021735 hard-dice: 0.949853 iou: 0.904494 took 2.681597s (2d with distortion)
+Epoch 60 step 300 1-dice: 0.030973 hard-dice: 0.925226 iou: 0.860857 took 2.701032s (2d with distortion)
+Epoch 60 step 400 1-dice: 0.022788 hard-dice: 0.939966 iou: 0.886732 took 2.703266s (2d with distortion)
+ ** Epoch [60/100] train 1-dice: 0.024994 hard-dice: 0.941261 iou: 0.891229 took 1124.136365s (2d with distortion)
+ **                 test 1-dice: 0.242443 hard-dice: 0.748845 iou: 0.631739 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 61 step 100 1-dice: 0.031015 hard-dice: 0.932684 iou: 0.873859 took 2.684090s (2d with distortion)
+Epoch 61 step 200 1-dice: 0.018153 hard-dice: 0.948975 iou: 0.902905 took 2.684471s (2d with distortion)
+Epoch 61 step 300 1-dice: 0.010673 hard-dice: 0.966387 iou: 0.934959 took 2.678163s (2d with distortion)
+Epoch 61 step 400 1-dice: 0.025090 hard-dice: 0.941350 iou: 0.889198 took 2.685542s (2d with distortion)
+ ** Epoch [61/100] train 1-dice: 0.026053 hard-dice: 0.939756 iou: 0.887996 took 1124.203958s (2d with distortion)
+ **                 test 1-dice: 0.276279 hard-dice: 0.715619 iou: 0.599352 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 62 step 100 1-dice: 0.021230 hard-dice: 0.947633 iou: 0.900478 took 2.684366s (2d with distortion)
+Epoch 62 step 200 1-dice: 0.014750 hard-dice: 0.961903 iou: 0.926602 took 2.681137s (2d with distortion)
+Epoch 62 step 300 1-dice: 0.044849 hard-dice: 0.912756 iou: 0.839513 took 2.676521s (2d with distortion)
+Epoch 62 step 400 1-dice: 0.029844 hard-dice: 0.933674 iou: 0.875599 took 2.683435s (2d with distortion)
+ ** Epoch [62/100] train 1-dice: 0.028453 hard-dice: 0.936777 iou: 0.885334 took 1124.095314s (2d with distortion)
+ **                 test 1-dice: 0.229595 hard-dice: 0.752399 iou: 0.621285 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 63 step 100 1-dice: 0.027413 hard-dice: 0.943680 iou: 0.893365 took 2.684597s (2d with distortion)
+Epoch 63 step 200 1-dice: 0.019933 hard-dice: 0.949807 iou: 0.904412 took 2.683807s (2d with distortion)
+Epoch 63 step 300 1-dice: 0.012072 hard-dice: 0.965722 iou: 0.933717 took 2.683120s (2d with distortion)
+Epoch 63 step 400 1-dice: 0.130610 hard-dice: 0.811594 iou: 0.682927 took 2.683170s (2d with distortion)
+ ** Epoch [63/100] train 1-dice: 0.038862 hard-dice: 0.928448 iou: 0.872653 took 1124.042036s (2d with distortion)
+ **                 test 1-dice: 0.126072 hard-dice: 0.855401 iou: 0.754505 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 64 step 100 1-dice: 0.026765 hard-dice: 0.945165 iou: 0.896032 took 2.685869s (2d with distortion)
+Epoch 64 step 200 1-dice: 0.071234 hard-dice: 0.859538 iou: 0.753675 took 2.678898s (2d with distortion)
+Epoch 64 step 300 1-dice: 0.014415 hard-dice: 0.963452 iou: 0.929482 took 2.685446s (2d with distortion)
+Epoch 64 step 400 1-dice: 0.013004 hard-dice: 0.964023 iou: 0.930545 took 2.680755s (2d with distortion)
+ ** Epoch [64/100] train 1-dice: 0.041718 hard-dice: 0.920724 iou: 0.857842 took 1124.035462s (2d with distortion)
+ **                 test 1-dice: 0.237514 hard-dice: 0.748813 iou: 0.662207 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 65 step 100 1-dice: 0.029586 hard-dice: 0.931720 iou: 0.872169 took 2.703411s (2d with distortion)
+Epoch 65 step 200 1-dice: 0.030441 hard-dice: 0.935300 iou: 0.878464 took 2.684011s (2d with distortion)
+Epoch 65 step 300 1-dice: 0.037843 hard-dice: 0.920759 iou: 0.853155 took 2.682330s (2d with distortion)
+Epoch 65 step 400 1-dice: 0.012442 hard-dice: 0.964826 iou: 0.932042 took 2.681059s (2d with distortion)
+ ** Epoch [65/100] train 1-dice: 0.036151 hard-dice: 0.930913 iou: 0.873792 took 1123.986920s (2d with distortion)
+ **                 test 1-dice: 0.146649 hard-dice: 0.839143 iou: 0.733150 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 66 step 100 1-dice: 0.036088 hard-dice: 0.896347 iou: 0.812165 took 2.685340s (2d with distortion)
+Epoch 66 step 200 1-dice: 0.021765 hard-dice: 0.953493 iou: 0.911119 took 2.695404s (2d with distortion)
+Epoch 66 step 300 1-dice: 0.015999 hard-dice: 0.958904 iou: 0.921053 took 2.699321s (2d with distortion)
+Epoch 66 step 400 1-dice: 0.020791 hard-dice: 0.950470 iou: 0.905615 took 2.682489s (2d with distortion)
+ ** Epoch [66/100] train 1-dice: 0.026998 hard-dice: 0.938864 iou: 0.886083 took 1124.024605s (2d with distortion)
+ **                 test 1-dice: 0.179390 hard-dice: 0.806584 iou: 0.686962 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 67 step 100 1-dice: 0.041352 hard-dice: 0.904243 iou: 0.825222 took 2.682134s (2d with distortion)
+Epoch 67 step 200 1-dice: 0.999999 hard-dice: 0.000000 iou: 0.000000 took 2.695295s (2d with distortion)
+Epoch 67 step 300 1-dice: 0.015244 hard-dice: 0.951850 iou: 0.908124 took 2.680031s (2d with distortion)
+Epoch 67 step 400 1-dice: 0.020852 hard-dice: 0.949548 iou: 0.903943 took 2.699412s (2d with distortion)
+ ** Epoch [67/100] train 1-dice: 0.034602 hard-dice: 0.934104 iou: 0.884363 took 1123.943407s (2d with distortion)
+ **                 test 1-dice: 0.206475 hard-dice: 0.777538 iou: 0.659992 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 68 step 100 1-dice: 0.020408 hard-dice: 0.953134 iou: 0.910464 took 2.684956s (2d with distortion)
+Epoch 68 step 200 1-dice: 0.033962 hard-dice: 0.912096 iou: 0.838398 took 2.680016s (2d with distortion)
+Epoch 68 step 300 1-dice: 0.049170 hard-dice: 0.906393 iou: 0.828811 took 2.682963s (2d with distortion)
+Epoch 68 step 400 1-dice: 0.020581 hard-dice: 0.942246 iou: 0.890799 took 2.681492s (2d with distortion)
+ ** Epoch [68/100] train 1-dice: 0.039162 hard-dice: 0.930361 iou: 0.872908 took 1124.078971s (2d with distortion)
+ **                 test 1-dice: 0.202827 hard-dice: 0.781367 iou: 0.661290 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 69 step 100 1-dice: 0.018670 hard-dice: 0.955942 iou: 0.915602 took 2.680066s (2d with distortion)
+Epoch 69 step 200 1-dice: 0.055182 hard-dice: 0.869643 iou: 0.769352 took 2.687088s (2d with distortion)
+Epoch 69 step 300 1-dice: 0.010452 hard-dice: 0.968296 iou: 0.938541 took 2.685036s (2d with distortion)
+Epoch 69 step 400 1-dice: 0.035914 hard-dice: 0.924797 iou: 0.860114 took 2.685399s (2d with distortion)
+ ** Epoch [69/100] train 1-dice: 0.035316 hard-dice: 0.927646 iou: 0.867920 took 1124.082059s (2d with distortion)
+ **                 test 1-dice: 0.138202 hard-dice: 0.844804 iou: 0.739484 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 70 step 100 1-dice: 0.009830 hard-dice: 0.971700 iou: 0.944958 took 2.682250s (2d with distortion)
+Epoch 70 step 200 1-dice: 0.026125 hard-dice: 0.941142 iou: 0.888828 took 2.677683s (2d with distortion)
+Epoch 70 step 300 1-dice: 0.045491 hard-dice: 0.890361 iou: 0.802389 took 2.685422s (2d with distortion)
+Epoch 70 step 400 1-dice: 0.022035 hard-dice: 0.944336 iou: 0.894542 took 2.685399s (2d with distortion)
+ ** Epoch [70/100] train 1-dice: 0.027651 hard-dice: 0.938603 iou: 0.888138 took 1124.092754s (2d with distortion)
+ **                 test 1-dice: 0.172905 hard-dice: 0.816168 iou: 0.709549 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 71 step 100 1-dice: 0.017373 hard-dice: 0.952478 iou: 0.909269 took 2.684125s (2d with distortion)
+Epoch 71 step 200 1-dice: 0.037313 hard-dice: 0.917674 iou: 0.847872 took 2.689521s (2d with distortion)
+Epoch 71 step 300 1-dice: 0.000000 hard-dice: 1.000000 iou: 1.000000 took 2.677554s (2d with distortion)
+Epoch 71 step 400 1-dice: 0.238705 hard-dice: 0.719142 iou: 0.561454 took 2.688457s (2d with distortion)
+ ** Epoch [71/100] train 1-dice: 0.052090 hard-dice: 0.915027 iou: 0.861167 took 1124.162252s (2d with distortion)
+ **                 test 1-dice: 0.300872 hard-dice: 0.680889 iou: 0.525098 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 72 step 100 1-dice: 0.021955 hard-dice: 0.950293 iou: 0.905294 took 2.697817s (2d with distortion)
+Epoch 72 step 200 1-dice: 0.029702 hard-dice: 0.936314 iou: 0.880254 took 2.699536s (2d with distortion)
+Epoch 72 step 300 1-dice: 0.604875 hard-dice: 1.000000 iou: 1.000000 took 2.684394s (2d with distortion)
+Epoch 72 step 400 1-dice: 0.015928 hard-dice: 0.959161 iou: 0.921527 took 2.681692s (2d with distortion)
+ ** Epoch [72/100] train 1-dice: 0.063174 hard-dice: 0.898682 iou: 0.825813 took 1124.176787s (2d with distortion)
+ **                 test 1-dice: 0.174259 hard-dice: 0.815636 iou: 0.709852 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 73 step 100 1-dice: 0.021108 hard-dice: 0.939240 iou: 0.885441 took 2.685475s (2d with distortion)
+Epoch 73 step 200 1-dice: 0.037352 hard-dice: 0.924195 iou: 0.859073 took 2.680800s (2d with distortion)
+Epoch 73 step 300 1-dice: 0.013326 hard-dice: 0.962900 iou: 0.928455 took 2.705078s (2d with distortion)
+Epoch 73 step 400 1-dice: 0.022307 hard-dice: 0.945530 iou: 0.896687 took 2.698014s (2d with distortion)
+ ** Epoch [73/100] train 1-dice: 0.036088 hard-dice: 0.927565 iou: 0.870716 took 1124.006774s (2d with distortion)
+ **                 test 1-dice: 0.179567 hard-dice: 0.807908 iou: 0.708243 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 74 step 100 1-dice: 0.020931 hard-dice: 0.957437 iou: 0.918349 took 2.685348s (2d with distortion)
+Epoch 74 step 200 1-dice: 0.023179 hard-dice: 0.940159 iou: 0.887075 took 2.684875s (2d with distortion)
+Epoch 74 step 300 1-dice: 0.017509 hard-dice: 0.952367 iou: 0.909065 took 2.680813s (2d with distortion)
+Epoch 74 step 400 1-dice: 0.019786 hard-dice: 0.957540 iou: 0.918539 took 2.699665s (2d with distortion)
+ ** Epoch [74/100] train 1-dice: 0.040048 hard-dice: 0.931452 iou: 0.877010 took 1123.961459s (2d with distortion)
+ **                 test 1-dice: 0.173125 hard-dice: 0.819605 iou: 0.720302 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 75 step 100 1-dice: 0.014688 hard-dice: 0.957999 iou: 0.919383 took 2.683399s (2d with distortion)
+Epoch 75 step 200 1-dice: 0.009134 hard-dice: 0.972021 iou: 0.945565 took 2.683123s (2d with distortion)
+Epoch 75 step 300 1-dice: 0.018736 hard-dice: 0.954115 iou: 0.912256 took 2.683014s (2d with distortion)
+Epoch 75 step 400 1-dice: 0.020086 hard-dice: 0.952915 iou: 0.910065 took 2.680351s (2d with distortion)
+ ** Epoch [75/100] train 1-dice: 0.029237 hard-dice: 0.937196 iou: 0.885105 took 1124.015435s (2d with distortion)
+ **                 test 1-dice: 0.132179 hard-dice: 0.852712 iou: 0.759610 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 76 step 100 1-dice: 0.018423 hard-dice: 0.949902 iou: 0.904584 took 2.681406s (2d with distortion)
+Epoch 76 step 200 1-dice: 0.025619 hard-dice: 0.929970 iou: 0.869106 took 2.682962s (2d with distortion)
+Epoch 76 step 300 1-dice: 0.012618 hard-dice: 0.964030 iou: 0.930557 took 2.681927s (2d with distortion)
+Epoch 76 step 400 1-dice: 0.012270 hard-dice: 0.960511 iou: 0.924023 took 2.684832s (2d with distortion)
+ ** Epoch [76/100] train 1-dice: 0.026043 hard-dice: 0.939788 iou: 0.888078 took 1124.127135s (2d with distortion)
+ **                 test 1-dice: 0.133026 hard-dice: 0.854305 iou: 0.762304 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 77 step 100 1-dice: 0.007659 hard-dice: 0.975363 iou: 0.951911 took 2.680906s (2d with distortion)
+Epoch 77 step 200 1-dice: 0.016897 hard-dice: 0.962216 iou: 0.927182 took 2.685448s (2d with distortion)
+Epoch 77 step 300 1-dice: 0.031748 hard-dice: 0.922516 iou: 0.856176 took 2.678153s (2d with distortion)
+Epoch 77 step 400 1-dice: 0.048369 hard-dice: 0.908598 iou: 0.832506 took 2.678455s (2d with distortion)
+ ** Epoch [77/100] train 1-dice: 0.025156 hard-dice: 0.941589 iou: 0.891846 took 1123.419208s (2d with distortion)
+ **                 test 1-dice: 0.149611 hard-dice: 0.837562 iou: 0.737208 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 78 step 100 1-dice: 0.018851 hard-dice: 0.957320 iou: 0.918135 took 2.683173s (2d with distortion)
+Epoch 78 step 200 1-dice: 0.024998 hard-dice: 0.940946 iou: 0.888477 took 2.675429s (2d with distortion)
+Epoch 78 step 300 1-dice: 0.019577 hard-dice: 0.944203 iou: 0.894304 took 2.683582s (2d with distortion)
+Epoch 78 step 400 1-dice: 0.012928 hard-dice: 0.961869 iou: 0.926539 took 2.680305s (2d with distortion)
+ ** Epoch [78/100] train 1-dice: 0.024689 hard-dice: 0.941690 iou: 0.892743 took 1122.670450s (2d with distortion)
+ **                 test 1-dice: 0.129129 hard-dice: 0.862593 iou: 0.765295 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 79 step 100 1-dice: 0.026005 hard-dice: 0.937000 iou: 0.881468 took 2.694728s (2d with distortion)
+Epoch 79 step 200 1-dice: 0.013297 hard-dice: 0.958308 iou: 0.919954 took 2.679620s (2d with distortion)
+Epoch 79 step 300 1-dice: 0.019801 hard-dice: 0.951403 iou: 0.907310 took 2.677567s (2d with distortion)
+Epoch 79 step 400 1-dice: 0.021580 hard-dice: 0.952867 iou: 0.909977 took 2.675101s (2d with distortion)
+ ** Epoch [79/100] train 1-dice: 0.042734 hard-dice: 0.923793 iou: 0.863518 took 1122.526320s (2d with distortion)
+ **                 test 1-dice: 0.179740 hard-dice: 0.815204 iou: 0.696269 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 80 step 100 1-dice: 0.050333 hard-dice: 0.895220 iou: 0.810315 took 2.692816s (2d with distortion)
+Epoch 80 step 200 1-dice: 0.029962 hard-dice: 0.935370 iou: 0.878587 took 2.674283s (2d with distortion)
+Epoch 80 step 300 1-dice: 0.013586 hard-dice: 0.960740 iou: 0.924446 took 2.677748s (2d with distortion)
+Epoch 80 step 400 1-dice: 0.020640 hard-dice: 0.944084 iou: 0.894090 took 2.678193s (2d with distortion)
+ ** Epoch [80/100] train 1-dice: 0.035337 hard-dice: 0.929304 iou: 0.871063 took 1122.545725s (2d with distortion)
+ **                 test 1-dice: 0.177873 hard-dice: 0.812705 iou: 0.730006 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 81 step 100 1-dice: 0.020832 hard-dice: 0.940190 iou: 0.887130 took 2.696833s (2d with distortion)
+Epoch 81 step 200 1-dice: 0.029393 hard-dice: 0.929670 iou: 0.868582 took 2.691535s (2d with distortion)
+Epoch 81 step 300 1-dice: 0.041639 hard-dice: 0.914556 iou: 0.842564 took 2.680723s (2d with distortion)
+Epoch 81 step 400 1-dice: 0.032421 hard-dice: 0.921457 iou: 0.854354 took 2.680688s (2d with distortion)
+ ** Epoch [81/100] train 1-dice: 0.046351 hard-dice: 0.917756 iou: 0.854153 took 1122.595830s (2d with distortion)
+ **                 test 1-dice: 0.097038 hard-dice: 0.890545 iou: 0.808519 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 82 step 100 1-dice: 0.010767 hard-dice: 0.968816 iou: 0.939517 took 2.683666s (2d with distortion)
+Epoch 82 step 200 1-dice: 0.031491 hard-dice: 0.924954 iou: 0.860385 took 2.694050s (2d with distortion)
+Epoch 82 step 300 1-dice: 0.046719 hard-dice: 0.897058 iou: 0.813331 took 2.695959s (2d with distortion)
+Epoch 82 step 400 1-dice: 0.038150 hard-dice: 0.898896 iou: 0.816358 took 2.679819s (2d with distortion)
+ ** Epoch [82/100] train 1-dice: 0.035823 hard-dice: 0.930519 iou: 0.875738 took 1122.658259s (2d with distortion)
+ **                 test 1-dice: 0.103985 hard-dice: 0.881088 iou: 0.794923 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 83 step 100 1-dice: 0.016743 hard-dice: 0.953998 iou: 0.912042 took 2.678386s (2d with distortion)
+Epoch 83 step 200 1-dice: 0.006459 hard-dice: 0.977271 iou: 0.955552 took 2.680942s (2d with distortion)
+Epoch 83 step 300 1-dice: 0.007403 hard-dice: 0.977351 iou: 0.955705 took 2.696069s (2d with distortion)
+Epoch 83 step 400 1-dice: 0.017038 hard-dice: 0.952470 iou: 0.909254 took 2.677962s (2d with distortion)
+ ** Epoch [83/100] train 1-dice: 0.026030 hard-dice: 0.939360 iou: 0.887363 took 1122.643151s (2d with distortion)
+ **                 test 1-dice: 0.202627 hard-dice: 0.788695 iou: 0.686421 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 84 step 100 1-dice: 0.012927 hard-dice: 0.965032 iou: 0.932428 took 2.679137s (2d with distortion)
+Epoch 84 step 200 1-dice: 0.020885 hard-dice: 0.950085 iou: 0.904916 took 2.676771s (2d with distortion)
+Epoch 84 step 300 1-dice: 0.016417 hard-dice: 0.958544 iou: 0.920388 took 2.687303s (2d with distortion)
+Epoch 84 step 400 1-dice: 0.027016 hard-dice: 0.937037 iou: 0.881533 took 2.695351s (2d with distortion)
+ ** Epoch [84/100] train 1-dice: 0.030826 hard-dice: 0.936572 iou: 0.884709 took 1122.585589s (2d with distortion)
+ **                 test 1-dice: 0.217096 hard-dice: 0.774100 iou: 0.649299 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 85 step 100 1-dice: 0.014408 hard-dice: 0.963127 iou: 0.928877 took 2.682892s (2d with distortion)
+Epoch 85 step 200 1-dice: 0.013614 hard-dice: 0.960657 iou: 0.924292 took 2.681356s (2d with distortion)
+Epoch 85 step 300 1-dice: 0.093430 hard-dice: 0.843071 iou: 0.728715 took 2.677938s (2d with distortion)
+Epoch 85 step 400 1-dice: 0.033338 hard-dice: 0.921972 iou: 0.855239 took 2.689696s (2d with distortion)
+ ** Epoch [85/100] train 1-dice: 0.042295 hard-dice: 0.926053 iou: 0.868911 took 1122.733860s (2d with distortion)
+ **                 test 1-dice: 0.121578 hard-dice: 0.868871 iou: 0.774535 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 86 step 100 1-dice: 0.249121 hard-dice: 0.720018 iou: 0.562522 took 2.676631s (2d with distortion)
+Epoch 86 step 200 1-dice: 0.022767 hard-dice: 0.944607 iou: 0.895029 took 2.677917s (2d with distortion)
+Epoch 86 step 300 1-dice: 0.017234 hard-dice: 0.960602 iou: 0.924191 took 2.681772s (2d with distortion)
+Epoch 86 step 400 1-dice: 0.032654 hard-dice: 0.928023 iou: 0.865712 took 2.692643s (2d with distortion)
+ ** Epoch [86/100] train 1-dice: 0.048878 hard-dice: 0.915281 iou: 0.850297 took 1122.761054s (2d with distortion)
+ **                 test 1-dice: 0.160644 hard-dice: 0.829776 iou: 0.723668 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 87 step 100 1-dice: 0.119584 hard-dice: 0.838981 iou: 0.722625 took 2.681588s (2d with distortion)
+Epoch 87 step 200 1-dice: 0.028252 hard-dice: 0.932692 iou: 0.873874 took 2.678683s (2d with distortion)
+Epoch 87 step 300 1-dice: 0.041300 hard-dice: 0.928515 iou: 0.866568 took 2.683240s (2d with distortion)
+Epoch 87 step 400 1-dice: 0.028160 hard-dice: 0.923869 iou: 0.858509 took 2.684282s (2d with distortion)
+ ** Epoch [87/100] train 1-dice: 0.035328 hard-dice: 0.928737 iou: 0.871140 took 1122.676386s (2d with distortion)
+ **                 test 1-dice: 0.164882 hard-dice: 0.826973 iou: 0.718906 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 88 step 100 1-dice: 0.021970 hard-dice: 0.953885 iou: 0.911836 took 2.680137s (2d with distortion)
+Epoch 88 step 200 1-dice: 0.027915 hard-dice: 0.934069 iou: 0.876293 took 2.684174s (2d with distortion)
+Epoch 88 step 300 1-dice: 0.026114 hard-dice: 0.937038 iou: 0.881535 took 2.686306s (2d with distortion)
+Epoch 88 step 400 1-dice: 0.020945 hard-dice: 0.952288 iou: 0.908921 took 2.679091s (2d with distortion)
+ ** Epoch [88/100] train 1-dice: 0.035207 hard-dice: 0.932289 iou: 0.878458 took 1122.736384s (2d with distortion)
+ **                 test 1-dice: 0.143219 hard-dice: 0.844969 iou: 0.739396 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 89 step 100 1-dice: 0.057358 hard-dice: 0.906750 iou: 0.829408 took 2.676790s (2d with distortion)
+Epoch 89 step 200 1-dice: 0.039765 hard-dice: 0.928621 iou: 0.866754 took 2.683523s (2d with distortion)
+Epoch 89 step 300 1-dice: 0.022627 hard-dice: 0.942977 iou: 0.892106 took 2.676251s (2d with distortion)
+Epoch 89 step 400 1-dice: 0.021847 hard-dice: 0.945419 iou: 0.896487 took 2.676378s (2d with distortion)
+ ** Epoch [89/100] train 1-dice: 0.060875 hard-dice: 0.904922 iou: 0.836402 took 1122.567235s (2d with distortion)
+ **                 test 1-dice: 0.127694 hard-dice: 0.858346 iou: 0.761252 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 90 step 100 1-dice: 0.032032 hard-dice: 0.920878 iou: 0.853359 took 2.682523s (2d with distortion)
+Epoch 90 step 200 1-dice: 0.023992 hard-dice: 0.932673 iou: 0.873840 took 2.678310s (2d with distortion)
+Epoch 90 step 300 1-dice: 0.020077 hard-dice: 0.956606 iou: 0.916821 took 2.680879s (2d with distortion)
+Epoch 90 step 400 1-dice: 0.012564 hard-dice: 0.972029 iou: 0.945581 took 2.677776s (2d with distortion)
+ ** Epoch [90/100] train 1-dice: 0.037977 hard-dice: 0.929730 iou: 0.875502 took 1122.502964s (2d with distortion)
+ **                 test 1-dice: 0.134921 hard-dice: 0.849222 iou: 0.751029 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 91 step 100 1-dice: 0.018587 hard-dice: 0.956687 iou: 0.916971 took 2.677980s (2d with distortion)
+Epoch 91 step 200 1-dice: 0.022083 hard-dice: 0.946485 iou: 0.898408 took 2.678771s (2d with distortion)
+Epoch 91 step 300 1-dice: 0.013519 hard-dice: 0.961574 iou: 0.925992 took 2.677609s (2d with distortion)
+Epoch 91 step 400 1-dice: 0.016286 hard-dice: 0.954024 iou: 0.912090 took 2.681610s (2d with distortion)
+ ** Epoch [91/100] train 1-dice: 0.027947 hard-dice: 0.937476 iou: 0.884685 took 1122.663045s (2d with distortion)
+ **                 test 1-dice: 0.100525 hard-dice: 0.885789 iou: 0.801013 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 92 step 100 1-dice: 0.014903 hard-dice: 0.956785 iou: 0.917151 took 2.679581s (2d with distortion)
+Epoch 92 step 200 1-dice: 0.018622 hard-dice: 0.953995 iou: 0.912037 took 2.679460s (2d with distortion)
+Epoch 92 step 300 1-dice: 0.011471 hard-dice: 0.962830 iou: 0.928325 took 2.678169s (2d with distortion)
+Epoch 92 step 400 1-dice: 0.029294 hard-dice: 0.928551 iou: 0.866631 took 2.679045s (2d with distortion)
+ ** Epoch [92/100] train 1-dice: 0.033178 hard-dice: 0.938738 iou: 0.889436 took 1122.572795s (2d with distortion)
+ **                 test 1-dice: 0.094284 hard-dice: 0.889116 iou: 0.806187 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 93 step 100 1-dice: 0.005890 hard-dice: 0.980105 iou: 0.960986 took 2.683449s (2d with distortion)
+Epoch 93 step 200 1-dice: 0.021959 hard-dice: 0.950241 iou: 0.905200 took 2.679088s (2d with distortion)
+Epoch 93 step 300 1-dice: 0.028785 hard-dice: 0.933333 iou: 0.875000 took 2.676826s (2d with distortion)
+Epoch 93 step 400 1-dice: 0.052211 hard-dice: 0.887886 iou: 0.798376 took 2.681734s (2d with distortion)
+ ** Epoch [93/100] train 1-dice: 0.034424 hard-dice: 0.934082 iou: 0.883407 took 1122.671501s (2d with distortion)
+ **                 test 1-dice: 0.103528 hard-dice: 0.881148 iou: 0.792617 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 94 step 100 1-dice: 0.018442 hard-dice: 0.951022 iou: 0.906619 took 2.681598s (2d with distortion)
+Epoch 94 step 200 1-dice: 0.025509 hard-dice: 0.931053 iou: 0.871001 took 2.681587s (2d with distortion)
+Epoch 94 step 300 1-dice: 0.028098 hard-dice: 0.925424 iou: 0.861199 took 2.682283s (2d with distortion)
+Epoch 94 step 400 1-dice: 0.015640 hard-dice: 0.960389 iou: 0.923796 took 2.680658s (2d with distortion)
+ ** Epoch [94/100] train 1-dice: 0.030533 hard-dice: 0.937504 iou: 0.885893 took 1122.590521s (2d with distortion)
+ **                 test 1-dice: 0.109936 hard-dice: 0.873431 iou: 0.779295 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 95 step 100 1-dice: 0.021382 hard-dice: 0.946091 iou: 0.897697 took 2.681631s (2d with distortion)
+Epoch 95 step 200 1-dice: 0.016347 hard-dice: 0.961551 iou: 0.925949 took 2.680458s (2d with distortion)
+Epoch 95 step 300 1-dice: 0.061993 hard-dice: 0.900745 iou: 0.819414 took 2.676270s (2d with distortion)
+Epoch 95 step 400 1-dice: 0.009322 hard-dice: 0.972169 iou: 0.945846 took 2.681375s (2d with distortion)
+ ** Epoch [95/100] train 1-dice: 0.029763 hard-dice: 0.936292 iou: 0.883961 took 1122.526153s (2d with distortion)
+ **                 test 1-dice: 0.128558 hard-dice: 0.859594 iou: 0.763835 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 96 step 100 1-dice: 0.023320 hard-dice: 0.943798 iou: 0.893578 took 2.693772s (2d with distortion)
+Epoch 96 step 200 1-dice: 0.011205 hard-dice: 0.968693 iou: 0.939287 took 2.681980s (2d with distortion)
+Epoch 96 step 300 1-dice: 0.047860 hard-dice: 0.900813 iou: 0.819527 took 2.678438s (2d with distortion)
+Epoch 96 step 400 1-dice: 0.026367 hard-dice: 0.926217 iou: 0.862574 took 2.680400s (2d with distortion)
+ ** Epoch [96/100] train 1-dice: 0.025998 hard-dice: 0.940792 iou: 0.891303 took 1122.486811s (2d with distortion)
+ **                 test 1-dice: 0.167590 hard-dice: 0.813995 iou: 0.701252 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 97 step 100 1-dice: 0.014322 hard-dice: 0.962078 iou: 0.926928 took 2.692547s (2d with distortion)
+Epoch 97 step 200 1-dice: 0.021927 hard-dice: 0.951073 iou: 0.906711 took 2.682261s (2d with distortion)
+Epoch 97 step 300 1-dice: 0.032041 hard-dice: 0.923924 iou: 0.858605 took 2.679766s (2d with distortion)
+Epoch 97 step 400 1-dice: 0.020929 hard-dice: 0.936298 iou: 0.880226 took 2.682586s (2d with distortion)
+ ** Epoch [97/100] train 1-dice: 0.028720 hard-dice: 0.940848 iou: 0.891508 took 1122.726579s (2d with distortion)
+ **                 test 1-dice: 0.175381 hard-dice: 0.810962 iou: 0.701377 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 98 step 100 1-dice: 0.076871 hard-dice: 0.875157 iou: 0.778025 took 2.693634s (2d with distortion)
+Epoch 98 step 200 1-dice: 0.008903 hard-dice: 0.973412 iou: 0.948201 took 2.693732s (2d with distortion)
+Epoch 98 step 300 1-dice: 0.021358 hard-dice: 0.945833 iou: 0.897232 took 2.680653s (2d with distortion)
+Epoch 98 step 400 1-dice: 0.015866 hard-dice: 0.958444 iou: 0.920203 took 2.681423s (2d with distortion)
+ ** Epoch [98/100] train 1-dice: 0.023338 hard-dice: 0.943255 iou: 0.895180 took 1122.548594s (2d with distortion)
+ **                 test 1-dice: 0.176191 hard-dice: 0.811485 iou: 0.703715 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 99 step 100 1-dice: 0.069977 hard-dice: 0.886129 iou: 0.795540 took 2.680919s (2d with distortion)
+Epoch 99 step 200 1-dice: 0.014541 hard-dice: 0.958689 iou: 0.920656 took 2.695002s (2d with distortion)
+Epoch 99 step 300 1-dice: 0.018310 hard-dice: 0.955913 iou: 0.915549 took 2.693480s (2d with distortion)
+Epoch 99 step 400 1-dice: 0.022067 hard-dice: 0.945937 iou: 0.897420 took 2.678807s (2d with distortion)
+ ** Epoch [99/100] train 1-dice: 0.030265 hard-dice: 0.935069 iou: 0.882214 took 1122.688411s (2d with distortion)
+ **                 test 1-dice: 0.112806 hard-dice: 0.872118 iou: 0.779233 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
+Epoch 100 step 100 1-dice: 0.026171 hard-dice: 0.933205 iou: 0.874774 took 2.679688s (2d with distortion)
+Epoch 100 step 200 1-dice: 0.016000 hard-dice: 0.946853 iou: 0.899071 took 2.682468s (2d with distortion)
+Epoch 100 step 300 1-dice: 0.025901 hard-dice: 0.923023 iou: 0.857050 took 2.695490s (2d with distortion)
+Epoch 100 step 400 1-dice: 0.035878 hard-dice: 0.919513 iou: 0.851017 took 2.679573s (2d with distortion)
+ ** Epoch [100/100] train 1-dice: 0.025403 hard-dice: 0.941054 iou: 0.891921 took 1122.728023s (2d with distortion)
+ **                 test 1-dice: 0.184651 hard-dice: 0.802390 iou: 0.687813 (2d no distortion)
+ task: all
+[*] checkpoint/u_net_all.npz saved
