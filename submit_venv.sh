@@ -1,7 +1,8 @@
 #!/bin/bash
 #SBATCH --account=def-mhodaie
+#SBATCH --nodes=1
 #SBATCH --gres=gpu:p100:1
-#SBATCH --mem-per-cpu=32G
+#SBATCH --mem=127000M
 #SBATCH --time=6-20:00
 
 module load python/3.7
